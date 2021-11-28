@@ -2,7 +2,7 @@ name: Next.JS to Vercel
 on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  # Merge to develop
+  # Merge to main
   push:
     branches:
       - main

@@ -54,7 +54,7 @@ const ResumePage: NextPage<ResumePageProps> = ({
         <meta name="description" content="Resume Artur Ampilogov" />
       </Head>
       <main>      
-        <About name="Artur Ampilogov">{aboutme}</About>
+        <About name="Artur Ampilogov" photoUrl="/img/photo.jpg">{aboutme}</About>
         <Links items={links}/>
         <ExperienceList items={experience} />
       </main>  

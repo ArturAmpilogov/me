@@ -1,0 +1,19 @@
+@import "../../../../styles/variables.module.scss";
+
+.container {
+    display: grid;
+    grid-template-columns: 128px auto;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.container p {
+    margin-top: 0;
+}
+
+@media (max-width: $mobile-width) {
+    .container {
+        grid-template-columns: 1fr;
+        justify-items: flex-start;
+    }
+}

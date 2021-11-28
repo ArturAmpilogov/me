@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  color: var(--color-primary);
+
+  font-weight: bold;
+  column-gap: 20px;
+}

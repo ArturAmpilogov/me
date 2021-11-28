@@ -1,0 +1,36 @@
+.tag {
+  margin: 2px 4px 2px 0;
+  padding: 7px 12px;
+
+  border-radius: 14px;
+}
+
+.lg {
+  font-size: 16px;
+}
+
+.md {
+  padding: 6px 8px;
+
+  font-size: 14px;
+}
+
+.sm {
+  padding: 4px 6px;
+
+  font-size: 12px;
+}
+
+.primary {
+  color: var(--color-font-primary);
+  background: linear-gradient(130deg, var(--color-primary) 20%, var(--color-primary2) 80%);
+  background-color: var(--color-primary);
+
+  font-weight: bold;
+}
+
+.ghost {
+  color: var(--color-font-ghost);
+  border: 1px solid var(--color-font-ghost);
+  background: var(--color-ghost);
+}

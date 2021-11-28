@@ -1,0 +1,29 @@
+.ul {
+  padding-left: 0;
+}
+
+.li {
+  list-style-type: none;
+}
+
+.name {
+  display: block;
+
+  margin-bottom: 3px;
+
+  color: var(--color-primary);
+
+  font-size: 16px;
+}
+
+.org {
+  margin-bottom: 2px;
+
+  font-size: 14px;
+}
+
+.date {
+  margin-bottom: 2px;
+
+  font-size: 12px;
+}

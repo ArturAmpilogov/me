@@ -1,0 +1,38 @@
+name: Next.JS to Vercel
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  # Merge to develop
+  push:
+    branches:
+      - main
+jobs:
+  vercel:
+    name: Create Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install node_modules
+        uses: actions/setup-node@v2
+        run: npm ci
+      - name: ES lint
+        run: npm run lint
+      - name: Style lint
+        run: npm run stylelint
+      - name: Build static site
+         run: npm run build-static
+      - name: Build static site
+         run: npm run build-static
+      - name: "Deploy to Vercel"
+        run: |
+          prodRun=""
+          if [[ ${GITHUB_REF} == "refs/heads/main" ]]; then
+            prodRun="--prod"
+          fi
+
+          npx vercel --token ${VERCEL_TOKEN} $prodRun
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}      

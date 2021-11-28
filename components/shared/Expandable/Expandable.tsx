@@ -5,7 +5,8 @@ import styles from "./Expandable.module.css";
 export const Expandable = ({children, more, moreButtonText="see more", ...props}: ExapndableProps): JSX.Element => {
     const [showMore, setShowMore] = useState(false);
 
-    return <div {...props}>
+    return (
+    <>
         {children}
         {more && <button 
             className={styles.more}
@@ -14,5 +15,6 @@ export const Expandable = ({children, more, moreButtonText="see more", ...props}
                 {showMore ? "see less" : moreButtonText }
             </button> }
         {showMore && more}
-    </div>
+    </>
+    );
 }

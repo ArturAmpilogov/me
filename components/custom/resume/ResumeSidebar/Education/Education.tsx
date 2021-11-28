@@ -17,7 +17,7 @@ export const Education = ({primary, secondary, title, ...props}: EducationProps)
             <div className={styles.date}>{rec.dateOfIssue}</div>
             {rec.tags && 
                 <TagList>
-                {rec.tags.map(tag => <Tag key={tag} type="ghost" size="sm">{tag}</Tag>)}
+                {rec.tags.map(tag => <Tag key={`${rec.name}-${tag}`} type="ghost" size="sm">{tag}</Tag>)}
                 </TagList>
             }
         </li>;

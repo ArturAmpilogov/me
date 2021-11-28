@@ -11,20 +11,16 @@
 
     & img {
       position: absolute;
-      width: 24px;
       right: -16px;
       top: -18px;
       z-index: -1;
       opacity: 0;
       transform-origin: bottom left;
-      // transform: rotate(180deg);
-      // transition: transform 1s linear;
     }
 
     & a:hover img {
       animation-name: iconAnimation;
-      animation-duration: 0.3s;
-      // transform: rotate(360deg);
+      animation-duration: 0.22s;
       opacity: 1;
     }
   }

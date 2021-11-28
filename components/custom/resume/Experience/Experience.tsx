@@ -12,7 +12,7 @@ export const Experience = ({position, organization, duration, description, tags,
         <div className={styles.duration}>{duration.start}-{duration.end}</div>
         <div className={styles.description}>{description}</div>
         <TagList>
-            {tags.map(tag => <Tag key={tag} type="ghost" size="sm">{tag}</Tag>)}
+            {tags.map(tag => <Tag key={`${organization}-${tag}`} type="ghost" size="sm">{tag}</Tag>)}
         </TagList>
     </li>
     );

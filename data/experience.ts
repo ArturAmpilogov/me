@@ -102,9 +102,6 @@ export const experience = [
         "AWS Dynamo DB",
         "Serverless",
         "PHP", 
-        "React.JS",
-        "TypeScript",
-        "JavaScript",
         "Shopify",
         "MySQL"    
     ]
@@ -228,8 +225,7 @@ export const experience = [
         "PHP",
         "Macromedia Flash CS3",
         "CSS",
-        "JavaScript",
-        "CSS"
+        "JavaScript"
     ]
 },
 ];

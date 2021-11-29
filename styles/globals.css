@@ -1,6 +1,6 @@
 :root {
   --color-primary: #00a6a6;
-  --color-primary2: #0db1b1;
+  --color-primary2: #2eb9b9;
   --color-secondary: #f08700;
   --color-tertiary: #bbdef0;
   --color-quartary: #f49f0a;
@@ -45,6 +45,12 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  margin: 8px 0;
+
+  font-size: 28px;
 }
 
 h2 {

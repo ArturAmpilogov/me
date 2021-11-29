@@ -23,7 +23,7 @@
 
 .primary {
   color: var(--color-font-primary);
-  background: linear-gradient(130deg, var(--color-primary) 20%, var(--color-primary2) 80%);
+  background: linear-gradient(45deg, var(--color-primary) 20%, var(--color-primary2) 70%);
   background-color: var(--color-primary);
 
   font-weight: bold;

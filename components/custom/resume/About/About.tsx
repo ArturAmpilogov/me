@@ -8,7 +8,7 @@ export const About = ({children, name, photoUrl, ...props}: AboutProps): JSX.Ele
         <h1>About me</h1>
         <div className={styles.name}>{name}</div>
         <div className={styles.description}>
-            <img src={photoUrl} alt={`Photo ${name}`} width="150" height="170"/>
+            <img src={photoUrl} alt={`Photo ${name}`} width={150} height={170}/>
             <p>{children}</p>
         </div>
     </div>);

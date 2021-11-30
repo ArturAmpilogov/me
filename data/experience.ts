@@ -91,6 +91,7 @@ export const experience = [
         "C#.NET",
         "WPF",
         "XAML",
+        "MVVM",
         "React.JS",
         "Node.JS",
         "JavaScript",
@@ -116,6 +117,7 @@ export const experience = [
         "WPF",
         "Silverlight",
         "XAML",
+        "MVVM",
         "ASP.NET",
         "Linq",
         "Entity Framework",
@@ -135,7 +137,8 @@ export const experience = [
         "nUnit",
         "Azure",
         "MS SQL",
-        "Mongo DB"  
+        "Mongo DB",
+        "DDD"
     ]
 },
 {
@@ -148,10 +151,14 @@ export const experience = [
         "WPF",
         "XAML",
         "WCF",
+        "MVVM",
+        "Microsoft PRISM",
+        "Devexpress",
         "Linq",
         "Entity Framework",
         "nUnit",
-        "MS SQL"    
+        "MS SQL",
+        "DDD"
     ]
 },
 {

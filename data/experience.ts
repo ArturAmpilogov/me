@@ -1,12 +1,12 @@
 export const experience = [
 {
-    position: "Contract Developer (freelance, part time)",
+    position: "Full Stack Developer (part time)",
     organization: "Perci Health (UK, remote)",
-    duration: { start: "Jul 2021", end: "current" },
-    description: "Developed brand new web applications, frontend and backend for the UK Health startup fighting cancer. Integrated third party services: Postmark, Paubox, Slack, Typeform, AWS Cognito, Microsoft BI, etc. Close collaboration with the CTO for the tasks. Set up CI/CD process with Github and Firebase. Covered new and old applications with Cypress and Playwright E2E tests. The contract was extended with minimum 1 day of work per week.",
+    duration: { start: "Jul 2021", end: "Apr 2023" },
+    description: "Created new web applications to support the UK Health startup that helps fighting cancer. Improved applications quality by covering new and old applications with E2E tests (Cypress and Microsoft Playwright). Set up CI/CD process with Github and Firebase. Integrated many third party services: Postmark, Paubox, Slack, Typeform, AWS Cognito, Stripe Identity, Microsoft BI, as others. The role included Full-Stack development with JavaScript stack: Google Firebase, React.JS, GCP, Express.JS REST API, TypeScript. Simplified code base by moving the solutions to monorepo using Turborepo.",
     tags: [
+        "TypeScript", 
         "React.JS", 
-        "JavaScript", 
         "Firebase", 
         "Firestore", 
         "Node.JS", 
@@ -22,13 +22,44 @@ export const experience = [
         "Paubox",
         "Slack",
         "Typeform",
+        "Turborepo",
+        "Stripe identity"
+    ],
+},
+{
+    position: "Software Engineering Tech Lead (full time)",
+    organization: "Kana (UK, remote)",
+    duration: { start: "Jul 2021", end: "Sep 2022" },
+    description: "Helped the UK startup to implement Pricing SaaS product in very challenging and dynamic work flow.Simplified development cycle by moving the code base to Monorepo with Turborepo and Github CI Workflows. Provided deep integration with Stripe. Full stack role. Created Frontend with TypeScript, Next.JS/React.JS and Chakra UI. Backend with TypeScript, NEST.JS/Node.JS, GraphQL, REST API, PostgreSQL, Prisma ORM, AWS Dynamo DB, Redis, and a bit of Go lang.",
+    tags: [
+        "GPT",
+        "TypeScript",
+        "React.JS", 
+        "Next.JS", 
+        "Chakra UI",
+        "Nest JS",
+        "Node.JS", 
+        "GraphQL",
+        "REST API",
+        "WebSockets",
+        "Prisma ORM",
+        "PostgreSQL",
+        "AWS Dynamo DB",
+        "AWS",
+        "Redis",
+        "Go lang",
+        "Stytch",
+        "Stripe",
+        "Sentry",  
+        "Segment",
+        "Turborepo"
     ],
 },
 {
     position: "Technical Director / Partner (freelance, part time)",
     organization: "Socionom (Russia, remote)",
-    duration: { start: "Jan 2021", end: "current" },
-    description: "A former colleague invited me to help with the EdTech startup. The cost of infrastructure and 3d party services was reduced in 5 times, saved 30,000 USD per year. Updated the architecture to use Cloud platform with microservices and Docker Swarm. Developed new Node JS microservices (Video converter, Auth, Zoom service). Fixed Vue.JS and Express.JS issues. Set up auto delivery infrastructure with Terraform, Continuous Integration with Github. Set up development, UAT and Production environments. Created documentation and technical plans for the product grows. Interviewed new candidates, reviewed Pull Requests. Currenlty occasionally on the the weekends consult the stakeholder and developers about archicture and possible task implementations.",
+    duration: { start: "Jan 2021", end: "May 2022" },
+    description: "A former colleague invited me to help with the EdTech startup. The cost of infrastructure and third party services was reduced in 5 times, it saved 30,000 USD per year. Interviewed new candidates.Lead the technical team. Updated the architecture to use a Cloud platform with microservices and Docker Swarm. Developed new Node JS microservices (Video converter, Auth, Zoom services). Fixed Vue.JS and Express.JS issues. Set up auto delivery infrastructure with Terraform, Continuous Integration with Github and Git submodules. Created Dev, UAT and Production environments in the Cloud. Provided documentation and technical plans for the product grows.",
     tags: [
         "Vue.js",
         "JavaScript", 
@@ -49,10 +80,10 @@ export const experience = [
     ]
 },
 {
-    position: "Product Chief Architect (freelance, full time)",
+    position: "Product Chief Architect (full time)",
     organization: "Aurea via Crossover (US, remote)",
     duration: { start: "Nov 2017", end: "Apr 2020" },
-    description: "Initially joined the orgranization as the C# .NET Chief Architect, developed new modules for two products and supported one product by fixing defects. Then has changed the position to the Product Chief Architect, which was the key technical role for a large Supply Chain product. The role included code reviews with the development team, E2E tests reviews with the QA and Auto QA teams, writing architecture documents, writing E2E tests, cloud infrastructure updates, CI set up, deployments, close collaboration with the Product manager, as well as the infrastructure team.",
+    description: "Initially joined the organization as the C# .NET Chief Architect. Then has changed the position to the Product Chief Architect, which was the key technical role for a large Supply Chain software. It required to be a core person that other teams were dependent on to improve the product. Crated tasks and provided code reviews for the Software development team, wrote E2E tests, reviewed the work of the manual QA team, created tasks and provided code review for the Auto QA team, created architecture documentation, implemented DevOps role in the cloud infrastructures (AWS and Azure). Prepared technical reports during Due Diligence process in the middle of acquiring multiple companies. A broad range of technologies in the Microsoft stack: C#, ASP.NET, ASP.NET Core, Entity Framework, MS SQL Server, xUnit tests, nUnit tests, Azure CI Deploy, AWS Cloud hosting, and many more. Reduced the infrastructure cost by several thousands of USD per month after finding dozens of forgotten virtual machines that were created by the migration team in the custom cloud.",
     tags: [
         "C#.NET",
         ".NET Core",
@@ -83,10 +114,10 @@ export const experience = [
     ]
 },
 {
-    position: "Owner, Full Stack Developer (freelance, part time)",
-    organization: "Sensing Cloud (Chile, remote), High Robotics (UK, remote)",
-    duration: { start: "Jul 2013", end: "Oct 2017" },
-    description: "Opened a UK company with the goal to improve design and user experience in the IT industry. In collaboration with the hired designer and clients developed brand new web applications for Chilean and Germany startups, as well improved UX. One of the awesome projects was a tablet application to control remotely a mining robot. It was a pleasure not only to create the UI and to program the application, but also to play with the robot via Internet. Also created several open source projects: WPF controls with multiple style sets, SVG icon set compatible with Bootstrap.",
+    position: "FreelancerFreelancer (freelance, part time)",
+    organization: "Self-employed (Chile, remote)",
+    duration: { start: "Jan 2016", end: "Oct 2017" },
+    description: "Created web applications for Chilean startups, and a website for the non profit project to prevent Chilean forest fires. Full stack role with variable technologies: AWS Lambda, Serverless, Node.JS, ReactJS, PHP, Jquery, Bootstrap, Shopify, MySQL, AWS DynamoDB.",
     tags: [
         "C#.NET",
         "WPF",
@@ -111,7 +142,7 @@ export const experience = [
     position: "Sustained Engineering Developer (full time)",
     organization: "Readify (Australia, on-site)",
     duration: { start: "Jun 2015", end: "Dec 2015" },
-    description: "Improved and maintained 6 applications with a variety of fields and technologies: Xamarin Native tablet application for track drivers, website for the mining corporation, Silverlight.NET application for the insurance company, and others. Participated in local conferences and tech brown bag sessions.",
+    description: "Improved and maintained applications for Australian clients with a variety of fields and technologies. A mobile application for truck drivers (C#, XAML, Xamarin Native), a brand website of a mining corporation (C#, ASP.NET, MS SQL Server), an application for a large insurance company (C#, Microsoft Silverlight, WCF, MS SQL Server), multiple web sites created with TypeScript, React.JS, Angular.JS, Node.JS, AWS and Azure cloud hosting.",
     tags: [
         "C#.NET",
         "WPF",
@@ -145,7 +176,7 @@ export const experience = [
     position: "Principal Software Developer (full time)",
     organization: "T-Systems CIS (Russia, Germany, on-site)",
     duration: { start: "Oct 2012", end: "May 2015" },
-    description: "Developed a brand new application for the large client in the automotive industry. The role included work on the frontend (Windows desktop), as well as on the backend (.NET services and WCF).",
+    description: "Created a brand new desktop application for the large Germany client in the automotive industry. The role included work on the frontend (Windows Presentation Framework/WPF, XAML), as well as on the backend (C# .NET services, WCF, MS SQL Server). The project was taken by almost 100 IT specialists seating in one building (software developers, DevOps, QA specialist, software architects, business analytics, designers, managers), it was one of the largest software teams in Europe working one project. The work included multiple business trips to Munich, Germany.Created a brand new desktop application for the large Germany client in the automotive industry. The role included work on the frontend (Windows Presentation Framework/WPF, XAML), as well as on the backend (C# .NET services, WCF, MS SQL Server). The project was taken by almost 100 IT specialists seating in one building (software developers, DevOps, QA specialist, software architects, business analytics, designers, managers), it was one of the largest software teams in Europe working one project. The work included multiple business trips to Munich, Germany.",
     tags: [
         "C#.NET",
         "WPF",
@@ -162,10 +193,35 @@ export const experience = [
     ]
 },
 {
+    position: "Founder (part time)",
+    organization: "High Robotics (UK, remote)",
+    duration: { start: "Jul 2013", end: "Dec 2014" },
+    description: "With the goal to improve design and user experience in the IT industry opened the UK company called High Robotics LTD. In collaboration with the hired designer and clients developed brand new web applications for Chilean and Germany startups, as well improved User Experience for existing products. One client intended to improve safety for mining workers by building a robot with wheels, camera and gas sensors. Our company made a research to design the best suited User Interface for a robot remote control. I programmed the realization in C#.NET, WPF. It was a real fun to play with a robot located in Chile across the globe. To improve the software design created two open sources projects: WPF/XAML controls with multiple style sets; SVG icon set compatible with Bootstrap.With the goal to improve design and user experience in the IT industry opened the UK company called High Robotics LTD. In collaboration with the hired designer and clients developed brand new web applications for Chilean and Germany startups, as well improved User Experience for existing products. One client intended to improve safety for mining workers by building a robot with wheels, camera and gas sensors. Our company made a research to design the best suited User Interface for a robot remote control. I programmed the realization in C#.NET, WPF. It was a real fun to play with a robot located in Chile across the globe. To improve the software design created two open sources projects: WPF/XAML controls with multiple style sets; SVG icon set compatible with Bootstrap.",
+    tags: [
+        "C#.NET",
+        "WPF",
+        "XAML",
+        "MVVM",
+        "React.JS",
+        "Node.JS",
+        "JavaScript",
+        "TypeScript",
+        "JQuery",
+        "CSS",
+        "AWS",
+        "AWS Lambda",
+        "AWS Dynamo DB",
+        "Serverless",
+        "PHP", 
+        "Shopify",
+        "MySQL"    
+    ]
+},
+{
     position: "C#.NET Developer (full time)",
     organization: "Intourist - Thomas Cook (Russia, on-site)",
     duration: { start: "Nov 2010", end: "Oct 2012" },
-    description: "Created new, improved and maintained existed internal tourist applications, websites and destop types. Closely collaborated with the air travel department.",
+    description: "Automated bus tours scheduling and tourists tracking by creating a desktop application (Windows Forms, C#, MS SQL Server and ADO.NET). Improved flight booking and tourists tracking for the Air tours department by creating a desktop application (C#, Windows Presentation Framework (WPF), MS SQL Server, LINQ and ADO.NET). Supported and improved the existing insurance web site written in C# (ASP.NET, JQuery, CSS, WCF, MS SQL Server and Microsoft Reporting Services).",
     tags: [
         "C#.NET",
         "WPF",
@@ -180,10 +236,10 @@ export const experience = [
     ]
 },
 {
-    position: "Developer (full time)",
-    organization: "Saint Petersburg State Institute of Psychology and Social Workk (Russia, on-site)",
+    position: "Software Engineer (full time)",
+    organization: "Saint Petersburg State Institute of Psychology and Social Work (Russia, on-site)",
     duration: { start: "Mar 2010", end: "Oct 2010" },
-    description: "Extended and improved existing IT systems in the Psychology institute, close collaboration with the dean and CTO.",
+    description: "Developed and supported IT projects for the Psychology institute. The main one included programming Microsoft Sharepoint MOSS 2007, an internal portal for digital workflows and document processing. It required a close collaboration with the dean and the head of IT department. Also extended the physical Ethernet network in a new building.Developed and supported IT projects for the Psychology institute. The main one included programming Microsoft Sharepoint MOSS 2007, an internal portal for digital workflows and document processing. It required a close collaboration with the dean and the head of IT department. Also extended the physical Ethernet network in a new building.",
     tags: [
         "C#.NET",
         "WinForms",
@@ -195,10 +251,10 @@ export const experience = [
     ]
 },
 {
-    position: "Teacher (part time)",
-    organization: "Saint Petersburg State Univesity (Russia, on-site)",
+    position: "Teacher of the IT course (contract, part-time)",
+    organization: "Saint Petersburg State University (Russia, on-site)",
     duration: { start: "Sep 2009", end: "Jul 2010" },
-    description: "Provided the IT course for the Psychology and the Social department students in the university.",
+    description: "Provided the introductory IT course for the Psychology and the Social department students in the Saint Petersburg State University. The course included basic computer structure, creating websites with pure HTML and CSS, visualization of XML data and T-SQL queries.",
     tags: [
         "HTML",
         "CSS",
@@ -206,10 +262,10 @@ export const experience = [
     ]
 },
 {
-    position: "Information technology specialist (part time)",
+    position: "Information technology specialist (full time)",
     organization: "Nevskie Shkafy (Russia, on-site)",
     duration: { start: "Sep 2009", end: "Jul 2010" },
-    description: "Developed the internet shop for the large wadrobe company, supported clients and colleagues in the IT area (help desk), handled IT administrator roles by updating computers, extending ethernet network.",
+    description: "Software developer role.\n Programming the internet shop for the large wardrobe company with PHP and MySQL database. Migrated visual wardrobe configuration in the website from Macromedia Flash to Microsoft Silverlight C#.\nIT administrator and help desk manager roles.\nSupported clients and colleagues with IT tasks, maintained the fleet of computers, hardware and software installation/updates, extended physical Ethernet network through the organization offices, set up routers, switches, network and Microsoft Windows servers.\nSales and courier role.\nSupported internet shop clients with wardrobe selection, delivered paper contracts to clients.",
     tags: [
         "C#.NET",
         "Silverlight",
@@ -224,12 +280,14 @@ export const experience = [
     ]
 },
 {
-    position: "Developer (part time)",
+    position: "Junior Software Engineer (part time)",
     organization: "SEO-promotion group (Russia, on-site)",
     duration: { start: "Jun 2007", end: "Mar 2008" },
-    description: "Search enging optimizations for the clients.",
+    description: "Search engine optimizations for the multiple clients, improving ranks for search results in Google and Yandex websites. Variety of stacks: PHP, ASP Classic.",
     tags: [
         "PHP",
+        "C#.NET",
+        "ASP Classic",
         "Macromedia Flash CS3",
         "CSS",
         "JavaScript"

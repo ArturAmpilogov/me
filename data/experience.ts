@@ -1,9 +1,9 @@
 export const experience = [
 {
-    position: "Full-Stack Developer (part time)",
+    position: "Full-stack Developer (part time)",
     organization: "Perci Health (UK, remote)",
     duration: { start: "Jul 2021", end: "Apr 2023" },
-    description: "Created new web applications to support  the UK Health startup  that helps fighting cancer. Improved applications quality by covering new and old applications with E2E tests (Cypress and Microsoft Playwright). Simplified code base by moving the solutions to monorepo using Turborepo. Integrated many third party services. Full-Stack role using Google Firebase and React.JS.",
+    description: "Created new web applications to support  the UK Health startup  that helps fighting cancer. Improved applications quality by covering new and old applications with E2E tests (Cypress and Microsoft Playwright). Simplified code base by moving the solutions to monorepo using Turborepo. Integrated many third party services. Full-stack role using Google Firebase and React.JS.",
     tags: [
         "TypeScript", 
         "React.JS", 
@@ -114,10 +114,10 @@ export const experience = [
     ]
 },
 {
-    position: "Full-Stack Developer (freelance, part time)",
+    position: "Full-stack Developer (freelance, part time)",
     organization: "Self-employed (Chile, remote)",
     duration: { start: "Jan 2016", end: "Oct 2017" },
-    description: "Created web applications for Chilean startups, and a website for the non profit project to prevent Chilean forest fires. Full-Stack role with variable technologies: AWS Lambda, Serverless, Node.JS, ReactJS, PHP, Jquery, Bootstrap, Shopify, MySQL, AWS DynamoDB.",
+    description: "Created web applications for Chilean startups, and a website for the non profit project to prevent Chilean forest fires. Full-stack role with variable technologies: AWS Lambda, Serverless, Node.JS, ReactJS, PHP, Jquery, Bootstrap, Shopify, MySQL, AWS DynamoDB.",
     tags: [
         "C#.NET",
         "WPF",

@@ -1,12 +1,12 @@
 export const technologies = {
     primary: [
-        "Backend services (10 years)",
+        "Backend services (12 years)",
         "ASP.NET (Core) (6 years)",
         "Windows Presentation Foundation (WPF) (6 years)",
-        "React.JS (5 years)",
-        "Node.JS (5 years)",
-        "CSS (10 years)",
-        "HTML (10 years)",
+        "React.JS (7 years)",
+        "Node.JS (7 years)",
+        "CSS (15 years)",
+        "HTML (15 years)",
     ],
     secondary: [
         "AWS", 

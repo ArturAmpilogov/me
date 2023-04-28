@@ -3,7 +3,7 @@ export const experience = [
     position: "Full-stack Developer (part time)",
     organization: "Perci Health (UK, remote)",
     duration: { start: "Jul 2021", end: "Apr 2023" },
-    description: "Created new web applications to support  the UK Health startup  that helps fighting cancer. Improved applications quality by covering new and old applications with E2E tests (Cypress and Microsoft Playwright). Simplified code base by moving the solutions to monorepo using Turborepo. Integrated many third party services. Full-stack role using Google Firebase and React.JS.",
+    description: "Created new web applications to support  the UK Health startup  that helps fighting cancer. Improved applications quality by covering new and old applications with E2E tests (Cypress and Microsoft Playwright). Simplified code base by moving the solutions to monorepo using Turborepo. Integrated many third party services. Micro-projects are implemented with the low cost infrastructure using Google Firebase.",
     tags: [
         "TypeScript", 
         "React.JS", 
@@ -30,7 +30,7 @@ export const experience = [
     position: "Software Engineering Tech Lead (full time)",
     organization: "Kana (UK, remote)",
     duration: { start: "Jul 2021", end: "Sep 2022" },
-    description: "Helped the UK startup to implement Pricing SaaS product in very challenging and dynamic workflow. Simplified development cycle by moving the code base to Monorepo with Turborepo and Github CI Workflows. Provided deep integration with Stripe. Created a couple of public NPM packages for the company. Full-stack role using Next.JS and Nest.JS.",
+    description: "Helped the UK startup to implement Pricing SaaS product in a very challenging and dynamic work flow.The web application is built with rich UI (Next.JS, Chakra UI) and multiple backend services (Nest.JS, GraphQL, REST API, Queues, Relational and Document databases, Clickhouse DB). Simplified development cycle by moving the code base to Monorepo with Turborepo and Github CI Workflows. Provided deep integration with Stripe Billing provider, and many other third party services. Created a couple of public  NPM packages for the main product usage (client and server side). Improved latency for high-load client requests by adding a small backend server written in Go lang.",
     tags: [
         "GPT",
         "TypeScript",
@@ -59,7 +59,7 @@ export const experience = [
     position: "Technical Director / Partner (freelance, part time)",
     organization: "Socionom (Russia, remote)",
     duration: { start: "Jan 2021", end: "May 2022" },
-    description: "A former colleague invited me to help with the EdTech startup. The cost of infrastructure and third party services was reduced in 5 times, it saved 30,000 USD per year. Interviewed new candidates.Lead the technical team. Updated the architecture to use a Cloud platform with microservices and Docker Swarm. Developed new Node JS microservices (Video converter, Auth, Zoom services). Fixed Vue.JS and Express.JS issues. Set up auto delivery infrastructure with Terraform, Continuous Integration with Github and Git submodules. Created Dev, UAT and Production environments in the Cloud. Provided documentation and technical plans for the product grows.",
+    description: "Helped a former colleague to build educational social network. Lead the technical team.  Interviewed new candidates. Updated the architecture to use a Cloud platform with microservices and Docker Swarm. Developed Node JS microservices (Video converter, Auth, Zoom services). Set up auto delivery infrastructure with Terraform, Continuous Integration with Github and Git submodules. Created Dev, UAT and Production environments in the Cloud. Provided documentation and technical plans for the product growth. The cost of infrastructure and third party services was reduced in 5 times, it saved 30,000 USD per year.",
     tags: [
         "Vue.js",
         "JavaScript", 
@@ -83,7 +83,7 @@ export const experience = [
     position: "Product Chief Architect (full time)",
     organization: "Aurea via Crossover (US, remote)",
     duration: { start: "Nov 2017", end: "Apr 2020" },
-    description: "Initially joined the organization as the C# .NET Chief Architect. Then has changed the position to the Product Chief Architect, which was the key technical role for a large Supply Chain software. It required to be a core person that other teams were dependent on to improve the product. Crated tasks and provided code reviews for the Software development team, wrote E2E tests, reviewed the work of the manual QA team, created tasks and provided code review for the Auto QA team, created architecture documentation, implemented DevOps role in the cloud infrastructures (AWS and Azure). Prepared technical reports during Due Diligence process in the middle of acquiring multiple companies. A broad range of technologies in the Microsoft stack: C#, ASP.NET, ASP.NET Core, Entity Framework, MS SQL Server, xUnit tests, nUnit tests, Azure CI Deploy, AWS Cloud hosting, and many more. Reduced the infrastructure cost by several thousands of USD per month after finding dozens of forgotten virtual machines that were created by the migration team in the custom cloud.",
+    description: "Initially joined the organization as the C# .NET Chief Architect. Then has changed the position to the Product Chief Architect, which was the key technical role for a large Supply Chain software. It required to be a core person that other teams were dependent on to improve the product. Crated tasks and provided code reviews for the Software development team, wrote E2E tests, reviewed the work of the manual QA team, created tasks and provided code review for the Auto QA team, created architecture documentation, implemented DevOps role in the cloud infrastructures (AWS and Azure). Prepared technical reports during Due Diligence process in the middle of acquiring multiple companies. A broad range of technologies in the Microsoft stack: C#, ASP.NET, ASP.NET Core, Entity Framework, MS SQL Server, xUnit tests, nUnit tests, Azure CI Deploy, AWS Cloud hosting, and many more. Reduced the infrastructure cost by several thousands of USD per month after finding forgotten dozens   virtual machines that were created by the migration team in the custom cloud.",
     tags: [
         "C#.NET",
         ".NET Core",
@@ -117,7 +117,7 @@ export const experience = [
     position: "Full-stack Developer (freelance, part time)",
     organization: "Self-employed (Chile, remote)",
     duration: { start: "Jan 2016", end: "Oct 2017" },
-    description: "Created web applications for Chilean startups, and a website for the non profit project to prevent Chilean forest fires. Full-stack role with variable technologies: AWS Lambda, Serverless, Node.JS, ReactJS, PHP, Jquery, Bootstrap, Shopify, MySQL, AWS DynamoDB.",
+    description: "Created web applications for Chilean startups, and a website for the non profit project to prevent Chilean forest fires. Full-stack role with variety of technologies: AWS Lambda, Serverless, Node.JS, ReactJS, PHP, Jquery, Bootstrap, Shopify, MySQL, AWS DynamoDB.",
     tags: [
         "C#.NET",
         "WPF",
@@ -193,10 +193,10 @@ export const experience = [
     ]
 },
 {
-    position: "Founder (part time)",
+    position: "Technical Founder (part time)",
     organization: "High Robotics (UK, remote)",
     duration: { start: "Jul 2013", end: "Dec 2014" },
-    description: "With the goal to improve design and user experience in the IT industry opened the UK company called High Robotics LTD. In collaboration with the hired designer and clients developed brand new web applications for Chilean and Germany startups, as well improved User Experience for existing products. One client intended to improve safety for mining workers by building a robot with wheels, camera and gas sensors. Our company made a research to design the best suited User Interface for a robot remote control. I programmed the realization in C#.NET, WPF. It was a real fun to play with a robot located in Chile across the globe. To improve the software design created two open sources projects: WPF/XAML controls with multiple style sets; SVG icon set compatible with Bootstrap.With the goal to improve design and user experience in the IT industry opened the UK company called High Robotics LTD. In collaboration with the hired designer and clients developed brand new web applications for Chilean and Germany startups, as well improved User Experience for existing products. One client intended to improve safety for mining workers by building a robot with wheels, camera and gas sensors. Our company made a research to design the best suited User Interface for a robot remote control. I programmed the realization in C#.NET, WPF. It was a real fun to play with a robot located in Chile across the globe. To improve the software design created two open sources projects: WPF/XAML controls with multiple style sets; SVG icon set compatible with Bootstrap.",
+    description: "With the goal to improve design and user experience in the IT industry opened the UK company called High Robotics LTD. In collaboration with the hired designer developed new web applications for Chilean and Germany startups, as well improved User Experience for existing products. One client intended to improve safety for mining workers by building a robot with wheels, camera and gas sensors. Our company made a research to design the best suited User Interface for a robot remote control. I programmed the realization in C#.NET and WPF. It was a real fun to play with a robot located in Chile across the globe. To improve the software design created two open sources projects: WPF/XAML controls with multiple style sets; SVG icon set compatible with Bootstrap.With the goal to improve design and user experience in the IT industry opened the UK company called High Robotics LTD. In collaboration with the hired designer and clients developed brand new web applications for Chilean and Germany startups, as well improved User Experience for existing products. One client intended to improve safety for mining workers by building a robot with wheels, camera and gas sensors. Our company made a research to design the best suited User Interface for a robot remote control. I programmed the realization in C#.NET and WPF. It was a real fun to play with a robot located in Chile across the globe. To improve the software design created UI open sources projects: WPF/XAML controls with multiple style sets; SVG icon set compatible with Bootstrap.",
     tags: [
         "C#.NET",
         "WPF",

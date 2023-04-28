@@ -117,7 +117,7 @@ export const experience = [
     position: "Full-Stack Developer (freelance, part time)",
     organization: "Self-employed (Chile, remote)",
     duration: { start: "Jan 2016", end: "Oct 2017" },
-    description: "Created web applications for Chilean startups, and a website for the non profit project to prevent Chilean forest fires. Full stack role with variable technologies: AWS Lambda, Serverless, Node.JS, ReactJS, PHP, Jquery, Bootstrap, Shopify, MySQL, AWS DynamoDB.",
+    description: "Created web applications for Chilean startups, and a website for the non profit project to prevent Chilean forest fires. Full-Stack role with variable technologies: AWS Lambda, Serverless, Node.JS, ReactJS, PHP, Jquery, Bootstrap, Shopify, MySQL, AWS DynamoDB.",
     tags: [
         "C#.NET",
         "WPF",

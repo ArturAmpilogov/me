@@ -3,7 +3,7 @@ export const experience = [
     position: "Full Stack Developer (part time)",
     organization: "Perci Health (UK, remote)",
     duration: { start: "Jul 2021", end: "Apr 2023" },
-    description: "Created new web applications to support the UK Health startup that helps fighting cancer. Improved applications quality by covering new and old applications with E2E tests (Cypress and Microsoft Playwright). Set up CI/CD process with Github and Firebase. Integrated many third party services: Postmark, Paubox, Slack, Typeform, AWS Cognito, Stripe Identity, Microsoft BI, as others. The role included Full-Stack development with JavaScript stack: Google Firebase, React.JS, GCP, Express.JS REST API, TypeScript. Simplified code base by moving the solutions to monorepo using Turborepo.",
+    description: "Created new web applications to support  the UK Health startup  that helps fighting cancer. Improved applications quality by covering new and old applications with E2E tests (Cypress and Microsoft Playwright). Simplified code base by moving the solutions to monorepo using Turborepo. Integrated many third party services. Full-Stack role using Google Firebase and React.JS.",
     tags: [
         "TypeScript", 
         "React.JS", 
@@ -30,7 +30,7 @@ export const experience = [
     position: "Software Engineering Tech Lead (full time)",
     organization: "Kana (UK, remote)",
     duration: { start: "Jul 2021", end: "Sep 2022" },
-    description: "Helped the UK startup to implement Pricing SaaS product in very challenging and dynamic work flow.Simplified development cycle by moving the code base to Monorepo with Turborepo and Github CI Workflows. Provided deep integration with Stripe. Full stack role. Created Frontend with TypeScript, Next.JS/React.JS and Chakra UI. Backend with TypeScript, NEST.JS/Node.JS, GraphQL, REST API, PostgreSQL, Prisma ORM, AWS Dynamo DB, Redis, and a bit of Go lang.",
+    description: "Helped the UK startup to implement Pricing SaaS product in very challenging and dynamic workflow. Simplified development cycle by moving the code base to Monorepo with Turborepo and Github CI Workflows. Provided deep integration with Stripe. Created a couple of public NPM packages for the company. Full-stack role using Next.JS and Nest.JS.",
     tags: [
         "GPT",
         "TypeScript",
@@ -114,7 +114,7 @@ export const experience = [
     ]
 },
 {
-    position: "FreelancerFreelancer (freelance, part time)",
+    position: "Full Stack Developer (freelance, part time)",
     organization: "Self-employed (Chile, remote)",
     duration: { start: "Jan 2016", end: "Oct 2017" },
     description: "Created web applications for Chilean startups, and a website for the non profit project to prevent Chilean forest fires. Full stack role with variable technologies: AWS Lambda, Serverless, Node.JS, ReactJS, PHP, Jquery, Bootstrap, Shopify, MySQL, AWS DynamoDB.",
@@ -283,7 +283,7 @@ export const experience = [
     position: "Junior Software Engineer (part time)",
     organization: "SEO-promotion group (Russia, on-site)",
     duration: { start: "Jun 2007", end: "Mar 2008" },
-    description: "Search engine optimizations for the multiple clients, improving ranks for search results in Google and Yandex websites. Variety of stacks: PHP, ASP Classic.",
+    description: "Search engine optimizations for multiple clients, improving ranks for search results in Google and Yandex websites. Variety of stacks: PHP, ASP Classic.",
     tags: [
         "PHP",
         "C#.NET",

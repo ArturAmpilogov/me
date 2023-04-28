@@ -1,1 +1,1 @@
-export const roles = ["Full Stack developer", "DevOps", "Architect", "Lead", "Consultant"];
+export const roles = ["Full-stack developer", "DevOps", "Architect", "Lead", "Consultant"];

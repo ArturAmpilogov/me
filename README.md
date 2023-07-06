@@ -1,13 +1,13 @@
 
 ## Resume live
 
-Visit [https://arturampilogov.vercel.app](https://arturampilogov.vercel.app).
+Visit [https://www.artur-ampilogov.com](https://www.artur-ampilogov.com).
 
 
 ## Code
 
 This website is created with React.JS, Node.JS, Next.JS static page generation, CSS/SCSS modules, CSS animation and TypeScript.
-Fast loading and renedering with a high Google Lighthouse score.  
+Fast loading and rendering with a high Google Lighthouse score.  
 
 For code check ES Lint and Stylelint are enabled.  
 

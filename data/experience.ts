@@ -2,7 +2,7 @@ export const experience = [
   {
     position: "Full-stack Developer (part time)",
     organization: "Perci Health (UK, remote)",
-    duration: { start: "Jul 2021", end: "Apr 2023" },
+    duration: { start: "Jul 2021", end: "Jun 2023" },
     description:
       "Created new web applications to support  the UK Health startup  that helps fighting cancer. Improved applications quality by covering new and old applications with E2E tests (Cypress and Microsoft Playwright). Simplified code base by moving the solutions to monorepo using Turborepo. Integrated many third party services. Micro-projects are implemented with the low cost infrastructure using Google Firebase.",
     tags: [
@@ -35,6 +35,8 @@ export const experience = [
       "Helped the UK startup to implement Pricing SaaS product in a very challenging and dynamic work flow.The web application is built with rich UI (Next.JS, Chakra UI) and multiple backend services (Nest.JS, GraphQL, REST API, Queues, Relational and Document databases, Clickhouse DB). Simplified development cycle by moving the code base to Monorepo with Turborepo and Github CI Workflows. Provided deep integration with Stripe Billing provider, and many other third party services. Created a couple of public  NPM packages for the main product usage (client and server side). Improved latency for high-load client requests by adding a small backend server written in Go lang.",
     tags: [
       "GPT",
+      "Open AI",
+      "Prompt engineering",
       "TypeScript",
       "React.JS",
       "Next.JS",

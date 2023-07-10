@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - '**/README.md'
+      - "**/README.md"
 
 jobs:
   vercel:
@@ -15,7 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Install node_modules
         run: npm ci
       - name: ES lint
@@ -35,4 +39,4 @@ jobs:
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}      
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}

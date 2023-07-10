@@ -8,7 +8,7 @@ export const links: ILink[] = [
   },
   {
     name: "Stackoverflow",
-    url: "https://stackoverflow.com/users/story/304371",
+    url: "https://stackoverflow.com/users/304371/artur-a",
     icon: "/img/stackoverflow-24px.png",
   },
   {

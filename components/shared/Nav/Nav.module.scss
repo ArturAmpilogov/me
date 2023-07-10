@@ -1,0 +1,11 @@
+.nav {
+  margin-top: 16px;
+}
+
+.nav a {
+  margin-right: 20px;
+  color: var(--color-font);
+  &.active {
+    color: var(--color-primary);
+  }
+}

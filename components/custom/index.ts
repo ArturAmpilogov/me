@@ -10,3 +10,5 @@ export * from "./resume/Links/Links.prop";
 export * from "./resume/ResumeSidebar/Skills/Skills.props";
 export * from "./resume/ResumeSidebar/Roles/Roles.prop";
 export * from "./resume/ResumeSidebar/Education/Education.props";
+export * from "./publications/Publications.props";
+export * from "./publications/Publications";

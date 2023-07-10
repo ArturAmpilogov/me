@@ -1,6 +1,6 @@
 export const experience = [
   {
-    position: "Full-stack Developer (part time)",
+    position: "Full-stack Developer (part time, contract)",
     organization: "Perci Health (UK, remote)",
     duration: { start: "Jul 2021", end: "Jun 2023" },
     description:
@@ -28,9 +28,9 @@ export const experience = [
     ],
   },
   {
-    position: "Software Engineering Tech Lead (full time)",
+    position: "Software Engineering Tech Lead (full time, contract)",
     organization: "Kana (UK, remote)",
-    duration: { start: "Jul 2021", end: "Sep 2022" },
+    duration: { start: "Jan 2022", end: "Sep 2022" },
     description:
       "Helped the UK startup to implement Pricing SaaS product in a very challenging and dynamic work flow.The web application is built with rich UI (Next.JS, Chakra UI) and multiple backend services (Nest.JS, GraphQL, REST API, Queues, Relational and Document databases, Clickhouse DB). Simplified development cycle by moving the code base to Monorepo with Turborepo and Github CI Workflows. Provided deep integration with Stripe Billing provider, and many other third party services. Created a couple of public  NPM packages for the main product usage (client and server side). Improved latency for high-load client requests by adding a small backend server written in Go lang.",
     tags: [
@@ -60,7 +60,7 @@ export const experience = [
     ],
   },
   {
-    position: "Technical Director / Partner (freelance, part time)",
+    position: "CTO / Partner (freelance, part time)",
     organization: "Socionom (Russia, remote)",
     duration: { start: "Jan 2021", end: "May 2022" },
     description:
@@ -85,7 +85,7 @@ export const experience = [
     ],
   },
   {
-    position: "Product Chief Architect (full time)",
+    position: "Product Chief Architect (full time, contract)",
     organization: "Aurea via Crossover (US, remote)",
     duration: { start: "Nov 2017", end: "Apr 2020" },
     description:
@@ -120,7 +120,7 @@ export const experience = [
     ],
   },
   {
-    position: "Full-stack Developer (freelance, part time)",
+    position: "Full-stack Developer (freelance, part time, contract)",
     organization: "Self-employed (Chile, remote)",
     duration: { start: "Jan 2016", end: "Oct 2017" },
     description:

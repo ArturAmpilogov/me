@@ -13,7 +13,7 @@ export const Publication = ({
 
   return (
     <div className={styles.container}>
-      <a href={link} target="_blank" rel="noreferrer">
+      <a href={link} target="_blank" rel="noreferrer" className={styles.link}>
         {name}
       </a>
       {description && <div>{description}</div>}

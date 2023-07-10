@@ -4,7 +4,7 @@ import styles from "./Publication.module.scss";
 export const Publication = ({ publication }: PublicationProps): JSX.Element => {
   return (
     <div className={styles.container}>
-      <a href={publication.link} target="_blank">
+      <a href={publication.link} target="_blank" rel="noreferrer">
         {publication.name}
       </a>
       <div className={styles.footer}>

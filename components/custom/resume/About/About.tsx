@@ -1,4 +1,4 @@
-import { AboutProps } from "./About.prop";
+import { AboutProps } from "./About.props";
 import styles from "./About.module.scss";
 import cn from "classnames";
 

@@ -1,4 +1,4 @@
-import { RolesProps } from "./Roles.prop";
+import { RolesProps } from "./Roles.props";
 import styles from "./Roles.module.css";
 
 export const Roles = ({roles, ...props}: RolesProps): JSX.Element => {

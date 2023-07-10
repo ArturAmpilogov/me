@@ -1,5 +1,4 @@
-import { Experience } from "./Experience";
-import { ExperienceProps } from "./Experience.props";
+import { Experience, ExperienceProps } from "./Experience";
 import { ExperienceListProps } from "./ExperienceList.props";
 import cn from "classnames";
 import styles from "./ExperienceList.module.css";

@@ -5,10 +5,7 @@ import { Layout } from "../components/shared";
 import { Publications, PublicationsProps } from "../components/custom";
 import { publications } from "../data";
 
-const PublicationsPage: NextPage<PublicationsProps> = ({
-  publications,
-  ...props
-}) => {
+const PublicationsPage: NextPage<PublicationsProps> = ({ items, ...props }) => {
   return (
     <Layout {...props}>
       <Head>
@@ -16,7 +13,7 @@ const PublicationsPage: NextPage<PublicationsProps> = ({
         <meta name="description" content="Artur Ampilogov's Publications" />
       </Head>
       <main>
-        <Publications publications={publications} />
+        <Publications items={publications} />
       </main>
     </Layout>
   );
@@ -30,7 +27,7 @@ export async function getStaticProps() {
   // In the future an external API endpoint can be called to fetch data
   return {
     props: {
-      publications: sortedPublications,
+      items: sortedPublications,
     },
   };
 }

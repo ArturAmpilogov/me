@@ -1,21 +1,26 @@
 @import "../../../styles/variables.module.scss";
 
 .container {
-  margin: 0 auto 50px;
+  width: fit-content;
   padding: 0 40px;
-}
-
-.layout {
-  display: grid;
-
-  grid-template-columns: 5fr minmax(300px, 2fr);
-  gap: 20px;
-
   max-width: $max-width;
 }
 
+@media (max-width: $mobile-width) {
+  .container {
+    margin: 0 auto 50px;
+  }
+}
+
 @media (max-width: $tablet-width) {
-  .layout {
-    grid-template-columns: 1fr;
+  .container {
+    margin: 0 auto 50px 40px;
+  }
+}
+
+@media (min-width: $max-width) {
+  .container {
+    min-width: $max-width;
+    margin: 0 auto 50px;
   }
 }

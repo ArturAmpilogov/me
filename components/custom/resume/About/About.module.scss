@@ -12,7 +12,9 @@
 }
 
 .description p {
+    max-width: 600px;
     margin-top: 0;
+    text-align: justify;
 }
 
 @media (max-width: $mobile-width) {

@@ -1,4 +1,6 @@
-export const publications = [
+import { IPublication } from "../types";
+
+export const publications: IPublication[] = [
   {
     type: "article",
     date: "2014-03-10",
@@ -16,21 +18,24 @@ export const publications = [
   {
     type: "article",
     date: "2015-07-13",
-    name: "Introduction to Octopus Deploy (in Russian)- Введение в Octopus Deploy",
+    name: "Introduction to Octopus Deploy (in Russian)",
+    description: "Введение в Octopus Deploy",
     link: "https://habr.com/ru/articles/262409/",
     publisher: "Habr",
   },
   {
     type: "article",
     date: "2015-09-06",
-    name: "Structured logging in examples with Serilog and Seq (in Russian) - Структурное логирование на примере Serilog и Seq",
+    name: "Structured logging in examples with Serilog and Seq (in Russian)",
+    description: "Структурное логирование на примере Serilog и Seq",
     link: "https://habr.com/ru/articles/266299/",
     publisher: "Habr",
   },
   {
     type: "article",
     date: "2023-06-16",
-    name: "What is AutoGPT project and why there are so many talks about it (in Russian) - Что такое проект AutoGPT и почему столько разговоров о нем",
+    name: "What is AutoGPT project and why there are so many talks about it (in Russian)",
+    description: "Что такое проект AutoGPT и почему столько разговоров о нем",
     link: "https://tproger.ru/articles/chto-takoe-proekt-autogpt-i-pochemu-stolko-razgovorov-o-nem/",
     publisher: "Tproger",
   },

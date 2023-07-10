@@ -1,5 +1,5 @@
-import { Tag } from "../../../shared/Tag/Tag";
-import { TagList } from "../../../shared/Tag/TagList";
+import { Tag } from "../../../../shared/Tag/Tag";
+import { TagList } from "../../../../shared/Tag/TagList";
 import { ExperienceProps } from "./Experience.props";
 import cn from "classnames";
 import styles from "./Experience.module.css";

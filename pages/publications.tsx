@@ -5,10 +5,7 @@ import { Layout } from "../components/shared";
 import { Publications, PublicationsProps } from "../components/custom";
 import { publications } from "../data";
 
-const PublicationsPage: NextPage<PublicationsProps> = ({
-  publications,
-  ...props
-}) => {
+const PublicationsPage: NextPage<PublicationsProps> = ({ items, ...props }) => {
   return (
     <Layout {...props}>
       <Head>
@@ -16,21 +13,23 @@ const PublicationsPage: NextPage<PublicationsProps> = ({
         <meta name="description" content="Artur Ampilogov's Publications" />
       </Head>
       <main>
-        <Publications publications={publications} />
+        <Publications items={items} />
       </main>
     </Layout>
   );
 };
 
 export async function getStaticProps() {
-  let sortedPublications = publications.sort((a, b) =>
-    a.date < b.date ? 1 : -1
-  ); // descending
+  // descending order
+  const sortedPublications = publications.sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
 
+  console.log(sortedPublications);
   // In the future an external API endpoint can be called to fetch data
   return {
     props: {
-      publications: sortedPublications,
+      items: sortedPublications,
     },
   };
 }

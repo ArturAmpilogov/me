@@ -4,4 +4,5 @@ export interface IPublication {
   name: string;
   link: string;
   publisher: string;
+  description?: string;
 }

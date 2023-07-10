@@ -12,7 +12,7 @@ export const Publications = ({
       <h1>Publications</h1>
       <div className={styles.list}>
         {publications.map((pub) => (
-          <Publication publication={pub} />
+          <Publication key={pub.link} publication={pub} />
         ))}
       </div>
     </div>

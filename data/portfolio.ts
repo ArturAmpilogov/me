@@ -15,32 +15,9 @@ export const portfolio: IPortfolio[] = [
   },
   {
     name: "@types/react-dates",
-    description: "Open source TypeScript definitions for Airbnb React dates UI controls.",
-    link: "https://www.npmjs.com/package/@types/react-dates",
-  },
-  {
-    name: "Robokassa NPM package",
     description:
-      "Open source package for working with the Robokassa payment system. The integration was required for one of the Education startup.",
-    link: "https://github.com/dev-aces/robokassa",
-  },
-  {
-    name: "Perci Health Referrals",
-    description: "Referral system for a Health startup.",
-    link: "https://www.percihealth.com/",
-    images: ["/img/portfolio/perci_referral.webp"],
-  },
-  {
-    name: "Kana",
-    description: "Smart pricing page for a financial startup.",
-    link: "https://www.usekana.com/",
-    images: ["/img/portfolio/kana.gif", "/img/portfolio/kana_analytics.svg"],
-  },
-  {
-    name: "Socionom",
-    description: "Social network for education.",
-    link: "https://socionom.org/",
-    images: ["/img/portfolio/socionom.png"],
+      "Open source TypeScript definitions for Airbnb React dates UI controls.",
+    link: "https://www.npmjs.com/package/@types/react-dates",
   },
   {
     name: "WPF/XAML themes for Microsoft.NET",
@@ -50,5 +27,29 @@ export const portfolio: IPortfolio[] = [
       "/img/portfolio/wpf_theme_1.png",
       "/img/portfolio/wpf_theme_2.png",
     ],
+  },
+  {
+    name: "Robokassa NPM package",
+    description:
+      "Open source package for working with the Robokassa payment system. The integration was required for one of the Education startup.",
+    link: "https://github.com/dev-aces/robokassa",
+  },
+  {
+    name: "Kana",
+    description: "Smart pricing page for a financial startup.",
+    link: "https://www.usekana.com/",
+    images: ["/img/portfolio/kana.gif", "/img/portfolio/kana_analytics.svg"],
+  },
+  {
+    name: "Perci Health Referrals",
+    description: "Referral system for a Health startup.",
+    link: "https://www.percihealth.com/",
+    images: ["/img/portfolio/perci_referral.webp"],
+  },
+  {
+    name: "Socionom",
+    description: "Social network for education.",
+    link: "https://socionom.org/",
+    images: ["/img/portfolio/socionom.png"],
   },
 ];

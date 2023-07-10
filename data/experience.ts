@@ -1,4 +1,6 @@
-export const experience = [
+import { IExperience } from "../types";
+
+export const experience: IExperience[] = [
   {
     position: "Full-stack Developer (part time, contract)",
     organization: "Perci Health (UK, remote)",

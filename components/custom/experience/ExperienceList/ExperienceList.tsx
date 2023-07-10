@@ -13,7 +13,6 @@ export const ExperienceList = ({
 
   return (
     <>
-      <h2>Experience</h2>
       <ul {...props} className={cn(styles.ul, props.className)}>
         {items.map(itemsToExperiences)}
       </ul>

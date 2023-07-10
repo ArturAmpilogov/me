@@ -13,6 +13,9 @@ export const Nav = (): JSX.Element => {
       <Link href="/" className={getClassName("/")}>
         About me
       </Link>
+      <Link href="/experience" className={getClassName("/experience")}>
+        Experience
+      </Link>
       <Link href="/publications" className={getClassName("/publications")}>
         Publications
       </Link>

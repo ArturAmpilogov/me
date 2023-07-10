@@ -1,4 +1,9 @@
-export const certificates = {
+import { ICertificate } from "../types";
+
+export const certificates: {
+  primary: ICertificate[];
+  secondary: ICertificate[];
+} = {
   primary: [
     {
       name: "Microsoft Certified Solutions Developer: App Builder",
@@ -20,7 +25,7 @@ export const certificates = {
       dateOfIssue: "2022",
       link: "/certificates/DAppUniversity-Blockchain.pdf",
       tags: ["Blockchain", "dApps", "Solidity", "React.JS"],
-    }
+    },
   ],
   secondary: [
     {

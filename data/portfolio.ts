@@ -2,21 +2,27 @@ import { IPortfolio } from "../types";
 
 export const portfolio: IPortfolio[] = [
   {
+    name: "Personal website",
+    description:
+      "This website itself is open sourced and is generated with React and NextJS.",
+    link: "https://github.com/ArturAmpilogov/me",
+  },
+  {
     name: "Fireway NPM package",
     description:
-      "Open source package for Firebase database migrations. It is an improved version of another project with bug fixes and TypeScript source code. It is the only available public NPM package that works good with Firebase migrations.",
+      "Open source package for Firebase database migrations. It is an improved version of another project with bug fixes and TypeScript source code. The database migrations were required for a health startup.",
     link: "https://github.com/dev-aces/fireway",
   },
   {
     name: "Node-DBMate",
     description:
-      "Open source package that supports queries for a ClickHouse database. This is an improved forked project, it was required for one of the UK finance startup and ClickHouse integration.",
+      "Open source package that supports queries for a ClickHouse database. This is an improved forked project, it was required for a finance startup and ClickHouse integration.",
     link: "https://github.com/ArturAmpilogov/node-dbmate",
   },
   {
     name: "@types/react-dates",
     description:
-      "Open source TypeScript definitions for Airbnb React dates UI controls.",
+      "Open source TypeScript definitions for Airbnb React dates UI controls. The definitions were required for several startups projects.",
     link: "https://www.npmjs.com/package/@types/react-dates",
   },
   {
@@ -45,6 +51,16 @@ export const portfolio: IPortfolio[] = [
     description: "Referral system for a Health startup.",
     link: "https://www.percihealth.com/",
     images: ["/img/portfolio/perci_referral.webp"],
+  },
+  {
+    name: "High Robotics - Minespector",
+    description:
+      "UX research and software creation for a tablet controller of a mining safety robot.",
+    link: "https://vimeo.com/85248707",
+    images: [
+      "/img/portfolio/minespector_ui.png",
+      "/img/portfolio/minespector.webp",
+    ],
   },
   {
     name: "Socionom",

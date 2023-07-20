@@ -46,4 +46,13 @@ export const publications: IPublication[] = [
     link: "https://www.infoq.com/articles/dotnet-unit-tests-time-timezone/",
     publisher: "InfoQ",
   },
+  {
+    type: "article",
+    date: "2023-07-20",
+    name: "The end for humanity: how soon artificial intelligence will replace colleagues, friends and soul mates? (in Russian)",
+    description:
+      "Конец человечеству: как скоро искусственный интеллект заменит коллег, друзей и вторых половинок?",
+    link: "https://mir24.tv/articles/16559409/konec-chelovechestvu-kak-skoro-iskusstvennyi-intellekt-zamenit-kolleg-druzei-i-vtoryh-polovinok",
+    publisher: "Mir24",
+  },
 ];

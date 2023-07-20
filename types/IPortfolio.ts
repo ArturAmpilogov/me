@@ -3,4 +3,5 @@ export interface IPortfolio {
   description: string;
   link: string;
   images?: string[];
+  imageMaxWidth?: number;
 }

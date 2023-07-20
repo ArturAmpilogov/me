@@ -16,7 +16,7 @@ export const portfolio: IPortfolio[] = [
   {
     name: "Node-DBMate",
     description:
-      "Open source package that supports queries for a ClickHouse database. This is an improved forked project, it was required for a finance startup and ClickHouse integration.",
+      "Open source package that supports queries for a ClickHouse database. This is an improved forked project, it was required for a FinTech startup and ClickHouse integration.",
     link: "https://github.com/ArturAmpilogov/node-dbmate",
   },
   {
@@ -33,6 +33,7 @@ export const portfolio: IPortfolio[] = [
       "/img/portfolio/wpf_theme_1.png",
       "/img/portfolio/wpf_theme_2.png",
     ],
+    imageMaxWidth: 600,
   },
   {
     name: "Robokassa NPM package",
@@ -42,15 +43,23 @@ export const portfolio: IPortfolio[] = [
   },
   {
     name: "Kana",
-    description: "Smart pricing page for a financial startup.",
+    description: "Smart pricing page for a FinTech startup.",
     link: "https://www.usekana.com/",
-    images: ["/img/portfolio/kana.gif", "/img/portfolio/kana_analytics.svg"],
+    images: [
+      "/img/portfolio/kana.webp",
+      "/img/portfolio/kana_analytics.svg",
+      "/img/portfolio/kana_plan.png",
+      "/img/portfolio/kana_plans.png",
+    ],
   },
   {
     name: "Perci Health Referrals",
     description: "Referral system for a Health startup.",
     link: "https://www.percihealth.com/",
-    images: ["/img/portfolio/perci_referral.webp"],
+    images: [
+      "/img/portfolio/perci_referral.webp",
+      "/img/portfolio/perci_referral.png",
+    ],
   },
   {
     name: "High Robotics - Minespector",
@@ -66,6 +75,6 @@ export const portfolio: IPortfolio[] = [
     name: "Socionom",
     description: "Social network for education.",
     link: "https://socionom.org/",
-    images: ["/img/portfolio/socionom.png"],
+    images: ["/img/portfolio/socionom.webp", "/img/portfolio/socionom.png"],
   },
 ];

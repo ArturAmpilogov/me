@@ -6,7 +6,7 @@ export const experience: IExperience[] = [
     organization: "Socionom (Russia, remote)",
     duration: { start: "Jan 2021", end: "Current" },
     description:
-      "I helped a former colleague to build the educational social network (EdTech). Leading the technical team, interviewed and searched for candidates. Managed technical tasks in Atlassian Jira. Updated the architecture to use a Cloud platform with microservices and Docker Swarm. Developed Node JS microservices (Video converter, Auth, Zoom services). Set up auto delivery infrastructure with Terraform, Continuous Integration with Github and Git submodules. Created Dev, UAT and Production environments in the Cloud. Provided documentation and technical plans for the product growth. The cost of infrastructure and third party services was reduced in 5 times, it saved 30,000 USD per year.",
+      "I helped a former colleague to build the educational social network (EdTech). Leading the technical team, interviewed and searched for candidates. Setup Atlassian Jira and managed technical tasks. Updated the architecture to use a Cloud platform with microservices and Docker Swarm. Developed Node JS microservices (Video converter, Auth, Zoom services). Set up auto delivery infrastructure with Terraform, Continuous Integration with Github and Git submodules. Created Dev, UAT and Production environments in the Cloud. Provided documentation and technical plans for the product growth. The cost of infrastructure and third party services was reduced in 5 times, it saved 30,000 USD per year.",
     tags: [
       "Vue.js",
       "JavaScript",

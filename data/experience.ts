@@ -2,7 +2,7 @@ import { IExperience } from "../types";
 
 export const experience: IExperience[] = [
   {
-    position: "Chief Technology Officer (CTO) (part time)",
+    position: "Chief Technology Officer (CTO) (part-time)",
     organization: "Socionom (Russia, remote)",
     duration: { start: "Jan 2021", end: "Current" },
     description:
@@ -27,7 +27,7 @@ export const experience: IExperience[] = [
     ],
   },
   {
-    position: "Full-stack Developer (part time, contract)",
+    position: "Full-stack Developer (part-time, contract)",
     organization: "Perci Health (UK, remote)",
     duration: { start: "Jul 2021", end: "Jun 2023" },
     description:
@@ -122,7 +122,7 @@ export const experience: IExperience[] = [
     ],
   },
   {
-    position: "Full-stack Developer (freelance, part time, contract)",
+    position: "Full-stack Developer (freelance, part-time, contract)",
     organization: "Self-employed (Chile, remote)",
     duration: { start: "Jan 2016", end: "Oct 2017" },
     description:
@@ -204,7 +204,7 @@ export const experience: IExperience[] = [
     ],
   },
   {
-    position: "Technical Founder (part time)",
+    position: "Technical Founder (part-time)",
     organization: "High Robotics (UK, remote)",
     duration: { start: "Jul 2013", end: "Dec 2014" },
     description:
@@ -293,7 +293,7 @@ export const experience: IExperience[] = [
     ],
   },
   {
-    position: "Junior Software Engineer (part time)",
+    position: "Junior Software Engineer (part-time)",
     organization: "SEO-promotion group (Russia, on-site)",
     duration: { start: "Jun 2007", end: "Mar 2008" },
     description:

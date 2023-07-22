@@ -2,6 +2,31 @@ import { IExperience } from "../types";
 
 export const experience: IExperience[] = [
   {
+    position: "Chief Technology Officer (CTO) (part time)",
+    organization: "Socionom (Russia, remote)",
+    duration: { start: "Jan 2021", end: "Current" },
+    description:
+      "I helped a former colleague to build the educational social network (EdTech). Leading the technical team, interviewed and searched for candidates. Managed technical tasks in Atlassian Jira. Updated the architecture to use a Cloud platform with microservices and Docker Swarm. Developed Node JS microservices (Video converter, Auth, Zoom services). Set up auto delivery infrastructure with Terraform, Continuous Integration with Github and Git submodules. Created Dev, UAT and Production environments in the Cloud. Provided documentation and technical plans for the product growth. The cost of infrastructure and third party services was reduced in 5 times, it saved 30,000 USD per year.",
+    tags: [
+      "Vue.js",
+      "JavaScript",
+      "Node.JS",
+      "Express.JS",
+      "REST API",
+      "WebSockets",
+      "AWS",
+      "Yandex Cloud",
+      "Terraform",
+      "Docker Swarm",
+      "Github",
+      "CI",
+      "Postgres",
+      "Sequelize",
+      "Mongo DB",
+      "Redis",
+    ],
+  },
+  {
     position: "Full-stack Developer (part time, contract)",
     organization: "Perci Health (UK, remote)",
     duration: { start: "Jul 2021", end: "Jun 2023" },
@@ -32,7 +57,7 @@ export const experience: IExperience[] = [
   {
     position: "Software Engineering Tech Lead (full time, contract)",
     organization: "Kana (UK, remote)",
-    duration: { start: "Jan 2022", end: "Sep 2022" },
+    duration: { start: "Jan 2022", end: "Jul 2023" },
     description:
       "Helped the UK startup to implement Pricing SaaS product in a very challenging and dynamic work flow.The web application is built with rich UI (Next.JS, Chakra UI) and multiple backend services (Nest.JS, GraphQL, REST API, Queues, Relational and Document databases, Clickhouse DB). Simplified development cycle by moving the code base to Monorepo with Turborepo and Github CI Workflows. Provided deep integration with Stripe Billing provider, and many other third party services. Created a couple of public  NPM packages for the main product usage (client and server side). Improved latency for high-load client requests by adding a small backend server written in Go lang.",
     tags: [
@@ -60,32 +85,7 @@ export const experience: IExperience[] = [
       "Segment",
       "Turborepo",
     ],
-  },
-  {
-    position: "CTO / Partner (freelance, part time)",
-    organization: "Socionom (Russia, remote)",
-    duration: { start: "Jan 2021", end: "May 2022" },
-    description:
-      "Helped a former colleague to build educational social network. Lead the technical team.  Interviewed new candidates. Updated the architecture to use a Cloud platform with microservices and Docker Swarm. Developed Node JS microservices (Video converter, Auth, Zoom services). Set up auto delivery infrastructure with Terraform, Continuous Integration with Github and Git submodules. Created Dev, UAT and Production environments in the Cloud. Provided documentation and technical plans for the product growth. The cost of infrastructure and third party services was reduced in 5 times, it saved 30,000 USD per year.",
-    tags: [
-      "Vue.js",
-      "JavaScript",
-      "Node.JS",
-      "Express.JS",
-      "REST API",
-      "WebSockets",
-      "AWS",
-      "Yandex Cloud",
-      "Terraform",
-      "Docker Swarm",
-      "Github",
-      "CI",
-      "Postgres",
-      "Sequelize",
-      "Mongo DB",
-      "Redis",
-    ],
-  },
+  },  
   {
     position: "Product Chief Architect (full time, contract)",
     organization: "Aurea via Crossover (US, remote)",

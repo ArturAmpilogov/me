@@ -57,7 +57,7 @@ export const experience: IExperience[] = [
   {
     position: "Software Engineering Tech Lead (full time, contract)",
     organization: "Kana (UK, remote)",
-    duration: { start: "Jan 2022", end: "Jul 2023" },
+    duration: { start: "Jan 2022", end: "Sep 2022" },
     description:
       "Helped the UK startup to implement Pricing SaaS product in a very challenging and dynamic work flow.The web application is built with rich UI (Next.JS, Chakra UI) and multiple backend services (Nest.JS, GraphQL, REST API, Queues, Relational and Document databases, Clickhouse DB). Simplified development cycle by moving the code base to Monorepo with Turborepo and Github CI Workflows. Provided deep integration with Stripe Billing provider, and many other third party services. Created a couple of public  NPM packages for the main product usage (client and server side). Improved latency for high-load client requests by adding a small backend server written in Go lang.",
     tags: [

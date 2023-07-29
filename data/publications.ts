@@ -55,4 +55,12 @@ export const publications: IPublication[] = [
     link: "https://mir24.tv/articles/16559409/konec-chelovechestvu-kak-skoro-iskusstvennyi-intellekt-zamenit-kolleg-druzei-i-vtoryh-polovinok",
     publisher: "Mir24",
   },
+  {
+    type: "article",
+    date: "2023-07-27",
+    name: "Who is a Python developer and what does they do? (in Russian)",
+    description: "Кто такой разработчик Python и чем он занимается?",
+    link: "https://blog.skillfactory.ru/python-developer/",
+    publisher: "Skillfactory",
+  },
 ];

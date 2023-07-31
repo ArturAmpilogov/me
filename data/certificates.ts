@@ -6,6 +6,20 @@ export const certificates: {
 } = {
   primary: [
     {
+      name: "EITCA Artificial Intelligence Programme",
+      organization: "European Information Technologies Certification Institute",
+      dateOfIssue: "2023",
+      link: "/certificates/EITCA-AI.pdf",
+      tags: [
+        "AI",
+        "Machine Learning",
+        "GCP",
+        "Pytorch",
+        "Tensorflow",
+        "Python",
+      ],
+    },
+    {
       name: "Microsoft Certified Solutions Developer: App Builder",
       organization: "Microsoft",
       dateOfIssue: "2016",
@@ -18,13 +32,6 @@ export const certificates: {
       dateOfIssue: "2016",
       link: "/certificates/MCSD-Web.pdf",
       tags: ["Azure", "ASP.NET MVC", ".NET", "HTML", "CSS", "REST API"],
-    },
-    {
-      name: "Blockchain Developer Bootcamp",
-      organization: "DAppUniversity",
-      dateOfIssue: "2022",
-      link: "/certificates/DAppUniversity-Blockchain.pdf",
-      tags: ["Blockchain", "dApps", "Solidity", "React.JS"],
     },
   ],
   secondary: [
@@ -41,6 +48,13 @@ export const certificates: {
       dateOfIssue: "2023",
       link: "/certificates/Educative-React-Hooks.pdf",
       tags: ["React.JS", "React hooks"],
+    },
+    {
+      name: "Blockchain Developer Bootcamp",
+      organization: "DAppUniversity",
+      dateOfIssue: "2022",
+      link: "/certificates/DAppUniversity-Blockchain.pdf",
+      tags: ["Blockchain", "dApps", "Solidity", "React.JS"],
     },
     {
       name: "Fundamentals of Parallelism on Intel Architecture",

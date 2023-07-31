@@ -23,7 +23,7 @@ const ResumePage: NextPage<ResumePageProps> = ({ aboutme, ...props }) => {
         <meta name="description" content="Resume Artur Ampilogov" />
       </Head>
       <main>
-        <About name="Artur Ampilogov" photoUrl="/img/photo.jpg">
+        <About name="Artur Ampilogov" photoUrl="/img/photo_2023.jpg">
           {aboutme}
         </About>
         <Links items={links} />

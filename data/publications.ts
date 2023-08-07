@@ -63,4 +63,13 @@ export const publications: IPublication[] = [
     link: "https://blog.skillfactory.ru/python-developer/",
     publisher: "Skillfactory",
   },
+  {
+    type: "article",
+    date: "2023-08-07",
+    name: "Profession Web-developer (in Russian)",
+    description: "Профессия web-разработчик",
+    link: "https://www.kp.ru/edu/rabota/professiya-veb-razrabotchik/",
+    publisher: "Komsomolskaya pravda",
+  },
+  
 ];

@@ -16,6 +16,7 @@ export const Layout = ({ children, ...props }: ILayoutProps): JSX.Element => {
         src="https://www.googletagmanager.com/gtag/js?id=G-X20GD52Z7Z"
       />
       <Script
+        id="analytics"
         dangerouslySetInnerHTML={{
           __html: `
         window.dataLayer = window.dataLayer || [];

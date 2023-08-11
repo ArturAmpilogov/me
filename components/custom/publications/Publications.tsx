@@ -9,11 +9,11 @@ export const Publications = ({
   return (
     <div {...props} className={styles.container}>
       <h1>Publications</h1>
-      <div className={styles.list}>
+      <ul className={styles.list}>
         {items.map((pub) => (
           <Publication key={pub.link} {...pub} />
         ))}
-      </div>
+      </ul>
     </div>
   );
 };

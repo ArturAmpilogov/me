@@ -10,13 +10,13 @@ export const portfolio: IPortfolio[] = [
   {
     name: "Fireway NPM package",
     description:
-      "Open source package for Firebase database migrations. It is an improved version of another project with bug fixes and TypeScript source code. The database migrations were required for a health startup.",
+      "Open source package for Firebase database migrations. It is an improved version of another project with bug fixes and TypeScript source code. The database migrations were required for the Healthcare startup.",
     link: "https://github.com/dev-aces/fireway",
   },
   {
     name: "Node-DBMate",
     description:
-      "Open source package that supports queries for a ClickHouse database. This is an improved forked project, it was required for a FinTech startup and ClickHouse integration.",
+      "Open source package that supports queries for ClickHouse database. This is an improved forked project, it was required for the FinTech startup and ClickHouse integration.",
     link: "https://github.com/ArturAmpilogov/node-dbmate",
   },
   {
@@ -38,12 +38,12 @@ export const portfolio: IPortfolio[] = [
   {
     name: "Robokassa NPM package",
     description:
-      "Open source package for working with the Robokassa payment system. The integration was required for one of the Education startup.",
+      "Open source package for working with the Robokassa payment system. The integration was required for the EdTech startup.",
     link: "https://github.com/dev-aces/robokassa",
   },
   {
     name: "Kana",
-    description: "Smart pricing page for a FinTech startup.",
+    description: "Smart pricing page for the FinTech startup.",
     link: "https://www.usekana.com/",
     images: [
       "/img/portfolio/kana.webp",
@@ -54,7 +54,7 @@ export const portfolio: IPortfolio[] = [
   },
   {
     name: "Perci Health Referrals",
-    description: "Referral system for a Health startup.",
+    description: "Referral system for the Healthcare startup.",
     link: "https://www.percihealth.com/",
     images: [
       "/img/portfolio/perci_referral.webp",
@@ -64,7 +64,7 @@ export const portfolio: IPortfolio[] = [
   {
     name: "High Robotics - Minespector",
     description:
-      "UX research and software creation for a tablet controller of a mining safety robot.",
+      "UX research and software creation for the tablet controller of the mining safety robot.",
     link: "https://vimeo.com/85248707",
     images: [
       "/img/portfolio/minespector_ui.png",
@@ -73,7 +73,7 @@ export const portfolio: IPortfolio[] = [
   },
   {
     name: "Socionom",
-    description: "Social network for education.",
+    description: "The social network for education.",
     link: "https://socionom.org/",
     images: ["/img/portfolio/socionom.webp", "/img/portfolio/socionom.png"],
   },

@@ -27,6 +27,10 @@ const ResumePage: NextPage<ResumePageProps> = ({ aboutme, ...props }) => {
           {aboutme}
         </About>
         <Links items={links} />
+        <div>
+          <h2>CV</h2>
+          <a href="/CV-Artur-Ampilogov.pdf" target="_blank" rel="noreferrer">CV-Artur-Ampilogov.pdf</a>
+        </div>
       </main>
     </Layout>
   );

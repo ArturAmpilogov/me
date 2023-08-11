@@ -25,7 +25,6 @@ export async function getStaticProps() {
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 
-  console.log(sortedPublications);
   // In the future an external API endpoint can be called to fetch data
   return {
     props: {

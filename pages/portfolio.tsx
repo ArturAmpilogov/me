@@ -15,12 +15,8 @@ const PortfolioPage: NextPage<PortfolioListProps> = ({ items, ...props }) => {
       <main>
         <h1>Portfolio</h1>
         <p>
-          Some of the work is under NDA, and some work was with pure backend
-          programming, development operations, software architecture, or teams
-          management, which cannot be shown in the portfolio. <br />
-          Below you can find some of the open source examples, as well as publicly
-          available information about projects created with teams
-          collaboration.
+        Some work is under NDA, and some work was with pure backend programming, development operations, software architecture, or team management, which cannot be shown in the portfolio.
+        Below you can find some of the open-source examples, as well as publicly available information about projects created with team collaboration.
         </p>
         <PortfolioList items={items} />
       </main>

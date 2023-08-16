@@ -80,5 +80,13 @@ export const publications: IPublication[] = [
     publisher: "Komsomolskaya pravda",
     language: "Russian",
   },
-  
+  {
+    type: "expert commentary",
+    date: "2023-08-16",
+    name: 'Who fixed the "millennium mistake" and what does AI have to do with it',
+    description: "Кто исправил «ошибку тысячелетия» и при чём здесь ИИ",
+    link: "https://synergytimes.ru/career/kto-ispravil-oshibku-tysyacheletiya-i-pri-chyem-zdes-ii",
+    publisher: "Synergy times",
+    language: "Russian",
+  },
 ];

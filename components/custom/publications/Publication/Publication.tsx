@@ -6,6 +6,7 @@ export const Publication = ({
   date,
   name,
   link,
+  archive,
   publisher,
   description,
   language,
@@ -15,9 +16,18 @@ export const Publication = ({
 
   return (
     <li className={styles.container}>
-      <a href={link} target="_blank" rel="noreferrer" className={styles.link}>
-        {name}
-      </a>
+      <div>
+        <a href={link} target="_blank" rel="noreferrer" className={styles.link}>
+          {name}
+        </a>
+        <span className={styles.archive}>
+          {"("}
+          <a href={archive} target="_blank" rel="noreferrer">
+            Archive
+          </a>
+          {")"}
+        </span>
+      </div>
       {description && <div>{description}</div>}
       {language && <div>Language: {language}</div>}
       <div className={styles.footer}>

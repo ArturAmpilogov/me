@@ -8,6 +8,8 @@ export const publications: IPublication[] = [
     link: "https://www.codeproject.com/Tips/741647/Go-to-Basic-NET-Floating-Numbers",
     publisher: "CodeProject",
     language: "English",
+    archive:
+      "https://web.archive.org/web/20210609013332/http://www.codeproject.com/Tips/741647/Go-to-Basic-NET-Floating-Numbers",
   },
   {
     type: "article",
@@ -16,6 +18,8 @@ export const publications: IPublication[] = [
     link: "https://www.codeproject.com/Tips/743125/Testing-number-inputs-with-special-symbols",
     publisher: "CodeProject",
     language: "English",
+    archive:
+      "https://web.archive.org/web/20230626185319/https://www.codeproject.com/Tips/743125/Testing-number-inputs-with-special-symbols",
   },
   {
     type: "article",
@@ -25,6 +29,8 @@ export const publications: IPublication[] = [
     link: "https://habr.com/ru/articles/262409/",
     publisher: "Habr",
     language: "Russian",
+    archive:
+      "https://web.archive.org/web/20230612184153/https://habr.com/ru/articles/262409/",
   },
   {
     type: "article",
@@ -34,6 +40,8 @@ export const publications: IPublication[] = [
     link: "https://habr.com/ru/articles/266299/",
     publisher: "Habr",
     language: "Russian",
+    archive:
+      "https://web.archive.org/web/20230612184431/https://habr.com/ru/articles/266299/",
   },
   {
     type: "article",
@@ -43,6 +51,8 @@ export const publications: IPublication[] = [
     link: "https://tproger.ru/articles/chto-takoe-proekt-autogpt-i-pochemu-stolko-razgovorov-o-nem/",
     publisher: "Tproger",
     language: "Russian",
+    archive:
+      "https://web.archive.org/web/20230616172629/https://tproger.ru/articles/chto-takoe-proekt-autogpt-i-pochemu-stolko-razgovorov-o-nem/",
   },
   {
     type: "article",
@@ -51,6 +61,8 @@ export const publications: IPublication[] = [
     link: "https://www.infoq.com/articles/dotnet-unit-tests-time-timezone/",
     publisher: "InfoQ",
     language: "English",
+    archive:
+      "https://web.archive.org/web/20230704170127/https://www.infoq.com/articles/dotnet-unit-tests-time-timezone/",
   },
   {
     type: "expert commentary",
@@ -61,6 +73,8 @@ export const publications: IPublication[] = [
     link: "https://mir24.tv/articles/16559409/konec-chelovechestvu-kak-skoro-iskusstvennyi-intellekt-zamenit-kolleg-druzei-i-vtoryh-polovinok",
     publisher: "Mir24",
     language: "Russian",
+    archive:
+      "https://web.archive.org/web/20230720180737/https://mir24.tv/articles/16559409/konec-chelovechestvu-kak-skoro-iskusstvennyi-intellekt-zamenit-kolleg-druzei-i-vtoryh-polovinok",
   },
   {
     type: "expert commentary",
@@ -70,6 +84,8 @@ export const publications: IPublication[] = [
     link: "https://blog.skillfactory.ru/python-developer/",
     publisher: "Skillfactory",
     language: "Russian",
+    archive:
+      "https://web.archive.org/web/20230729104605/https://blog.skillfactory.ru/python-developer/",
   },
   {
     type: "expert commentary",
@@ -79,6 +95,8 @@ export const publications: IPublication[] = [
     link: "https://www.kp.ru/edu/rabota/professiya-veb-razrabotchik/",
     publisher: "Komsomolskaya pravda",
     language: "Russian",
+    archive:
+      "https://web.archive.org/web/20230807185047/https://www.kp.ru/edu/rabota/professiya-veb-razrabotchik/",
   },
   {
     type: "expert commentary",
@@ -88,5 +106,7 @@ export const publications: IPublication[] = [
     link: "https://synergytimes.ru/career/kto-ispravil-oshibku-tysyacheletiya-i-pri-chyem-zdes-ii",
     publisher: "Synergy times",
     language: "Russian",
+    archive:
+      "https://web.archive.org/web/20230816135058/https://synergytimes.ru/career/kto-ispravil-oshibku-tysyacheletiya-i-pri-chyem-zdes-ii",
   },
 ];

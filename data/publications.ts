@@ -109,4 +109,14 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20230816135058/https://synergytimes.ru/career/kto-ispravil-oshibku-tysyacheletiya-i-pri-chyem-zdes-ii",
   },
+  {
+    type: "article",
+    date: "2023-08-24",
+    name: "The state of modern Web development and perspectives on improvements",
+    link: "https://dev.to/arturampilogov/the-state-of-modern-web-development-and-perspectives-on-improvements-51nl",
+    publisher: "Dev.to",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20230824153654/https://dev.to/arturampilogov/the-state-of-modern-web-development-and-perspectives-on-improvements-51nl",
+  },
 ];

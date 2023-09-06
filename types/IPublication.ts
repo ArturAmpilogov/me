@@ -6,5 +6,5 @@ export interface IPublication {
   publisher: string;
   description?: string;
   language: string;
-  archive: string;
+  archive?: string;
 }

@@ -12,7 +12,12 @@ export const Publication = ({
   language,
 }: PublicationProps): JSX.Element => {
   const typeCapitalized = type.charAt(0).toUpperCase() + type.slice(1);
-  const typePreposition = type === "article" ? "in" : "for";
+  let typePreposition = '';
+  switch (type) {
+    case "article": typePreposition = "in"; break;
+    case "expert commentary": typePreposition = "for"; break;
+    case "video": typePreposition = "on"; break;
+  }
 
   return (
     <li className={styles.container}>
@@ -20,13 +25,15 @@ export const Publication = ({
         <a href={link} target="_blank" rel="noreferrer" className={styles.link}>
           {name}
         </a>
-        <span className={styles.archive}>
-          {"("}
-          <a href={archive} target="_blank" rel="noreferrer">
-            Archive
-          </a>
-          {")"}
-        </span>
+        {archive && (
+          <span className={styles.archive}>
+            {"("}
+            <a href={archive} target="_blank" rel="noreferrer">
+              Archive
+            </a>
+            {")"}
+          </span>
+        )}
       </div>
       {description && <div>{description}</div>}
       {language && <div>Language: {language}</div>}

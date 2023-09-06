@@ -119,4 +119,12 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20230824153654/https://dev.to/arturampilogov/the-state-of-modern-web-development-and-perspectives-on-improvements-51nl",
   },
+  {
+    type: "video",
+    date: "2023-09-06",
+    name: "Evolution of C#",
+    link: "https://www.youtube.com/playlist?list=PLwQvq9EuSmsiw-4Mm2SGkTQRGQHOqy1PU",
+    publisher: "Youtube",
+    language: "English",
+  },  
 ];

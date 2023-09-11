@@ -126,5 +126,15 @@ export const publications: IPublication[] = [
     link: "https://www.youtube.com/playlist?list=PLwQvq9EuSmsiw-4Mm2SGkTQRGQHOqy1PU",
     publisher: "Youtube",
     language: "English",
-  },  
+  },
+  {
+    type: "article",
+    date: "2023-09-10",
+    name: "The feature missed in C++, Java, C#, and Python",
+    link: "https://dev.to/arturampilogov/the-feature-missed-in-c-java-c-and-python-3j0a",
+    publisher: "Dev.to",
+    language: "English",
+    archive:
+      "http://web.archive.org/web/20230911174506/https://dev.to/arturampilogov/the-feature-missed-in-c-java-c-and-python-3j0a",
+  },
 ];

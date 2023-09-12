@@ -3,10 +3,10 @@ import { PortfolioListProps } from "./PortfolioList.props";
 
 export const PortfolioList = ({ items }: PortfolioListProps) => {
   return (
-    <>
+    <ul>
       {items.map((item) => (
         <Portfolio key={item.link} {...item} />
       ))}
-    </>
+    </ul>
   );
 };

@@ -9,7 +9,7 @@ export const Portfolio = ({
   imageMaxWidth,
 }: IPortfolio) => {
   return (
-    <div className={styles.container}>
+    <li className={styles.container}>
       <a href={link} target="_blank" rel="noreferrer" className={styles.link}>
         {name}
       </a>
@@ -24,6 +24,6 @@ export const Portfolio = ({
           />
         ))}
       </div>
-    </div>
+    </li>
   );
 };

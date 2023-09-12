@@ -11,7 +11,7 @@ export const Nav = (): JSX.Element => {
   return (
     <nav className={styles.nav}>
       <Link href="/" className={getClassName("/")}>
-        About me
+        About&nbsp;me
       </Link>
       <Link href="/experience" className={getClassName("/experience")}>
         Experience

@@ -130,11 +130,21 @@ export const publications: IPublication[] = [
   {
     type: "article",
     date: "2023-09-10",
-    name: "The feature missed in C++, Java, C#, and Python",
+    name: "The feature missed in C++, Java, C#, PHP, Python, Ruby and JavaScript",
     link: "https://dev.to/arturampilogov/the-feature-missed-in-c-java-c-and-python-3j0a",
     publisher: "Dev.to",
     language: "English",
     archive:
       "http://web.archive.org/web/20230911174506/https://dev.to/arturampilogov/the-feature-missed-in-c-java-c-and-python-3j0a",
+  },
+  {
+    type: "article",
+    date: "2023-09-15",
+    name: "Programming language, don't make me think",
+    link: "https://dev.to/dev-aces/programming-language-dont-make-me-think-5b3g",
+    publisher: "Dev.to",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20230915184920/https://dev.to/dev-aces/programming-language-dont-make-me-think-5b3g",
   },
 ];

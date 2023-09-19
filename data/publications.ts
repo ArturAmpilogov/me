@@ -147,4 +147,15 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20230915184920/https://dev.to/dev-aces/programming-language-dont-make-me-think-5b3g",
   },
+  {
+    type: "expert commentary",
+    date: "2023-09-18",
+    name: 'A trial ball. Who does block YouTube in Crimea',
+    description: "Пробный шар. Как блокируют YouTube в Крыму",
+    link: "https://www.svoboda.org/a/probnyy-shar-kak-blokiruyut-youtube-v-krymu/32596681.html",
+    publisher: "Radio Liberty",
+    language: "Russian",
+    archive:
+      "https://web.archive.org/web/20230919045543/https://www.svoboda.org/a/probnyy-shar-kak-blokiruyut-youtube-v-krymu/32596681.html",
+  },  
 ];

@@ -8,7 +8,7 @@ export const Portfolio = ({
   description,
   link,
   images,
-  imageMaxWidth,
+  imageMaxWidth = 800,
 }: IPortfolio) => {
   return (
     <li className={styles.container}>
@@ -31,7 +31,7 @@ export const Portfolio = ({
               quality={95}
               sizes={imageSizes({
                 desktop: `${imageMaxWidth}px`,
-                tablet: "100vw",
+                tablet: `${imageMaxWidth}px`,
                 mobile: "100vw",
               })}
             />

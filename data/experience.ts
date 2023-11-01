@@ -2,6 +2,28 @@ import { IExperience } from "../types";
 
 export const experience: IExperience[] = [
   {
+    position: "Senior Full Stack Engineer (full time, contract)",
+    organization: "Nodia (Germany, remote)",
+    duration: { start: "Oct 2023", end: "Nov 2023" },
+    description:
+      "Building the web application for the Germany Web3/NFT startup and arts exhibitions. The project is built with the latest technologies: Next.JS v.14 App router, TypeScript, Tailwind, Firebase, Turso SQL DB and Drizzle ORM.",
+    tags: [
+      "Web3",
+      "NFT",
+      "Next.js",
+      "React.js",
+      "Tailwind",
+      "TypeScript",
+      "REST API",
+      "Firebase",
+      "Github",
+      "CI",
+      "Turso",
+      "SQL",
+      "Drizzle",
+    ],
+  },
+  {
     position: "Chief Technology Officer (CTO) (part-time)",
     organization: "Socionom (Russia, remote)",
     duration: { start: "Jan 2021", end: "Current" },
@@ -29,9 +51,9 @@ export const experience: IExperience[] = [
   {
     position: "Full-stack Developer (part-time, contract)",
     organization: "Perci Health (UK, remote)",
-    duration: { start: "Jul 2021", end: "Jun 2023" },
+    duration: { start: "Jul 2021", end: "Oct 2023" },
     description:
-      "Created new web applications to support  the UK Health startup  that helps fighting cancer. Improved applications quality by covering new and old applications with E2E tests (Cypress and Microsoft Playwright). Simplified code base by moving the solutions to monorepo using Turborepo. Integrated many third party services. Micro-projects are implemented with the low cost infrastructure using Google Firebase.",
+      "Created new web applications to support the UK Health startup  that helps fighting cancer. Improved applications quality by covering new and old applications with E2E tests (Cypress and Microsoft Playwright). Simplified code base by moving the solutions to monorepo using Turborepo. Integrated many third party services. Micro-projects are implemented with the low cost infrastructure using Google Firebase.",
     tags: [
       "TypeScript",
       "React.JS",
@@ -85,7 +107,7 @@ export const experience: IExperience[] = [
       "Segment",
       "Turborepo",
     ],
-  },  
+  },
   {
     position: "Product Chief Architect (full time, contract)",
     organization: "Aurea via Crossover (US, remote)",

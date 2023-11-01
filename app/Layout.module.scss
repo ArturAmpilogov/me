@@ -1,0 +1,21 @@
+@import "../styles/variables.module.scss";
+
+.container {
+  width: fit-content;
+  padding: 0 40px;
+  max-width: $max-width;
+}
+
+@media (max-width: $desktop-width) {
+  .container {
+    padding: 0 16px;
+    margin: 0 auto 50px auto;
+  }
+}
+
+@media (min-width: $max-width) {
+  .container {
+    min-width: $max-width;
+    margin: 0 auto 50px 50px;
+  }
+}

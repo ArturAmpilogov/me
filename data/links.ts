@@ -17,11 +17,6 @@ export const links: ILink[] = [
     icon: "/img/github-24px.png",
   },
   {
-    name: "Github old",
-    url: "https://github.com/Artur-A",
-    icon: "/img/github-24px.png",
-  },
-  {
     name: "Twitter",
     url: "https://twitter.com/a_ampilogov",
     icon: "/img/twitter-24px.png",

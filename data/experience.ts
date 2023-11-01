@@ -6,7 +6,7 @@ export const experience: IExperience[] = [
     organization: "Nodia (Germany, remote)",
     duration: { start: "Oct 2023", end: "Nov 2023" },
     description:
-      "Building the web application for the Germany Web3/NFT startup and arts exhibitions. The project is built with the latest technologies: Next.JS v.14 App router, TypeScript, Tailwind, Firebase, Turso SQL DB and Drizzle ORM.",
+      "Building the web application for the Germany Web3/NFT startup and arts exhibitions. The project is built with the latest technologies: Next.JS v.14 App router, TypeScript, Tailwind, Firebase and Turso SQL DB.",
     tags: [
       "Web3",
       "NFT",

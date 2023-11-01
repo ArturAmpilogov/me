@@ -27,7 +27,7 @@ jobs:
       - name: Style lint
         run: npm run stylelint
       - name: Build static site
-        run: npm run build-static
+        run: npm run build
       - name: "Deploy to Vercel"
         run: |
           prodRun=""

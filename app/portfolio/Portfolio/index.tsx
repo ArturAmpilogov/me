@@ -28,7 +28,6 @@ export const Portfolio = ({
               alt={`${name} image ${i}`}
               src={src}
               fill
-              quality={95}
               sizes={imageSizes({
                 desktop: `${imageMaxWidth}px`,
                 tablet: `${imageMaxWidth}px`,

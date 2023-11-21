@@ -27,6 +27,7 @@ export const Portfolio = ({
               className={styles.image}
               alt={`${name} image ${i}`}
               src={src}
+              unoptimized={src.endsWith(".webp")}
               fill
               sizes={imageSizes({
                 desktop: `${imageMaxWidth}px`,

@@ -2,11 +2,11 @@ import { IExperience } from "../types";
 
 export const experience: IExperience[] = [
   {
-    position: "Senior Full Stack Engineer (full time, contract)",
+    position: "Senior Full Stack Engineer (full time, part-time, contract)",
     organization: "Nodia (Germany, remote)",
-    duration: { start: "Oct 2023", end: "Nov 2023" },
+    duration: { start: "Oct 2023", end: "Dec 2023" },
     description:
-      "Building the web application for the Germany Web3/NFT startup and arts exhibitions. The project is built with the latest technologies: Next.JS v.14 App router, TypeScript, Tailwind, Firebase and Turso SQL DB.",
+      "Building the web application for the Germany Web3/NFT startup and arts exhibitions. The project is built with the latest technologies: Next.JS v.14 App router, TypeScript, Tailwind, Firebase and Web3",
     tags: [
       "Web3",
       "NFT",
@@ -17,10 +17,8 @@ export const experience: IExperience[] = [
       "REST API",
       "Firebase",
       "Github",
+      "Stripe",
       "CI",
-      "Turso",
-      "SQL",
-      "Drizzle",
     ],
   },
   {

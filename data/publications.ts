@@ -157,5 +157,16 @@ export const publications: IPublication[] = [
     language: "Russian",
     archive:
       "https://web.archive.org/web/20230919045543/https://www.svoboda.org/a/probnyy-shar-kak-blokiruyut-youtube-v-krymu/32596681.html",
+  },
+  {
+    type: "expert commentary",
+    date: "2024-01-04",
+    name: 'The future of neural networks in 2024',
+    description: "Каким будет будущее нейросетей в 2024 году",
+    link: "https://tproger.ru/articles/kakim-budet-budushhee-nejrosetej-v-2024-godu",
+    publisher: "Tproger",
+    language: "Russian",
+    archive:
+      "https://web.archive.org/web/20240104133503/https://tproger.ru/articles/kakim-budet-budushhee-nejrosetej-v-2024-godu",
   },  
 ];

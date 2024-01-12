@@ -22,7 +22,7 @@ export const portfolio: IPortfolio[] = [
   {
     name: "@types/react-dates",
     description:
-      " Open-source TypeScript definitions for Airbnb React dates UI controls. The definitions were required for several startups projects.",
+      "Open-source TypeScript definitions for Airbnb React dates UI controls. The definitions were required for several startups projects.",
     link: "https://www.npmjs.com/package/@types/react-dates",
   },
   {
@@ -42,15 +42,14 @@ export const portfolio: IPortfolio[] = [
     link: "https://github.com/dev-aces/robokassa",
   },
   {
-    name: "Kana",
-    description: "Smart pricing page for the UK FinTech startup. The project is built with React.JS, Next.JS, Nest.JS, TypeScript, GoLang, PostgresDB and DynamoDB.",
-    link: "https://www.usekana.com/",
+    name: "Nodia",
+    description: "Digital exhibitions. The project is built with React.JS, Next.JS, TailwindCSS, TypeScript, Firebase, Solidity and Ethereum blockchain. The project has not been released live yet.",
+    link: "https://www.linkedin.com/in/artur-ampilogov/",
     images: [
-      "/img/portfolio/kana.webp",
-      "/img/portfolio/kana_analytics.svg",
-      "/img/portfolio/kana_plan.png",
-      "/img/portfolio/kana_plans.png",
+      "/img/portfolio/aarrcc.webp",
+      "/img/portfolio/aarrcc_wallet_selection.png",
     ],
+    imageMaxWidth: 600,
   },
   {
     name: "Perci Health Referrals",
@@ -60,6 +59,19 @@ export const portfolio: IPortfolio[] = [
       "/img/portfolio/perci_referral.webp",
       "/img/portfolio/perci_referral.png",
     ],
+    imageMaxWidth: 600,
+  },
+  {
+    name: "Kana",
+    description: "Smart pricing page for the UK FinTech startup. The project is built with React.JS, Next.JS, Nest.JS, TypeScript, GoLang, PostgresDB and DynamoDB.",
+    link: "https://www.usekana.com/",
+    images: [
+      "/img/portfolio/kana.webp",
+      "/img/portfolio/kana_analytics.svg",
+      "/img/portfolio/kana_plan.png",
+      "/img/portfolio/kana_plans.png",
+    ],
+    imageMaxWidth: 600,
   },
   {
     name: "High Robotics - Minespector",
@@ -70,6 +82,7 @@ export const portfolio: IPortfolio[] = [
       "/img/portfolio/minespector_ui.png",
       "/img/portfolio/minespector.webp",
     ],
+    imageMaxWidth: 600,
   },
   {
     name: "Socionom",

@@ -150,7 +150,7 @@ export const publications: IPublication[] = [
   {
     type: "expert commentary",
     date: "2023-09-18",
-    name: 'A trial ball. Who does block YouTube in Crimea',
+    name: "A trial ball. Who does block YouTube in Crimea",
     description: "Пробный шар. Как блокируют YouTube в Крыму",
     link: "https://www.svoboda.org/a/probnyy-shar-kak-blokiruyut-youtube-v-krymu/32596681.html",
     publisher: "Radio Liberty",
@@ -161,12 +161,22 @@ export const publications: IPublication[] = [
   {
     type: "expert commentary",
     date: "2024-01-04",
-    name: 'The future of neural networks in 2024',
+    name: "The future of neural networks in 2024",
     description: "Каким будет будущее нейросетей в 2024 году",
     link: "https://tproger.ru/articles/kakim-budet-budushhee-nejrosetej-v-2024-godu",
     publisher: "Tproger",
     language: "Russian",
     archive:
       "https://web.archive.org/web/20240104133503/https://tproger.ru/articles/kakim-budet-budushhee-nejrosetej-v-2024-godu",
-  },  
+  },
+  {
+    type: "article",
+    date: "2024-02-01",
+    name: "React is not about performance",
+    link: "https://dev.to/arturampilogov/react-is-not-about-performance-16bg",
+    publisher: "Dev.to",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20240201155227/https://dev.to/arturampilogov/react-is-not-about-performance-16bg",
+  },
 ];

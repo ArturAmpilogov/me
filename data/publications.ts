@@ -179,4 +179,15 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20240201155227/https://dev.to/arturampilogov/react-is-not-about-performance-16bg",
   },
+  {
+    type: "article",
+    date: "2024-02-20",
+    name: "The future of Web-development",
+    description: "Будущее Web-разработки",
+    link: "http://bit.samag.ru/archive/more/238",
+    publisher: "BIT. Business and Information Technology, ISSN 2313-8718",
+    language: "Russian",
+    archive:
+      "https://web.archive.org/web/20240228163529/http://bit.samag.ru/archive/more/238",
+  },
 ];

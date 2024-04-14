@@ -2,11 +2,26 @@ import { IExperience } from "../types";
 
 export const experience: IExperience[] = [
   {
+    position: "Full-stack Engineer (full time, contract)",
+    organization: "Checkatrade (UK, remote)",
+    duration: { start: "Feb 2024", end: "current" },
+    description:
+      "Helping other teams to deliver code faster. Eliminated security report issues for two projects. Fixed important problems in cross-organization components. Improved local development environment usage with docker compose. Converted a project from JavaScript to TypeScript. Increased test coverage for many sub projects (.NET and TypeScript). Provided some form of consultancy for different teams.",
+    tags: [
+      "C#.NET",
+      "TypeScript",
+      "Firebase",
+      "Google Cloud",
+      "Terraform",
+      "Docker"
+    ],
+  },
+  {
     position: "Full-stack Developer (part-time, contract)",
     organization: "Perci Health (UK, remote)",
-    duration: { start: "Jul 2021", end: "current" },
+    duration: { start: "Jul 2021", end: "Feb 2024" },
     description:
-      "Created new web applications to support the UK Health startup  that helps fighting cancer. Improved applications quality by covering new and old applications with E2E tests (Cypress and Microsoft Playwright). Simplified code base by moving the solutions to monorepo using Turborepo. Integrated many third party services. Micro-projects are implemented with the low cost infrastructure using Google Firebase.",
+      "Created new web applications to support the UK Health startup that helps fighting cancer. Improved applications quality by covering new and old applications with E2E tests (Cypress and Microsoft Playwright). Simplified code base by moving the solutions to monorepo using Turborepo. Integrated many third party services. Micro-projects are implemented with the low cost infrastructure using Google Firebase.",
     tags: [
       "TypeScript",
       "React.JS",

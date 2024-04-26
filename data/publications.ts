@@ -190,4 +190,15 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20240228163529/http://bit.samag.ru/archive/more/238",
   },
+  {
+    type: "article",
+    date: "2024-04-19",
+    name: "Microservices. Is it worth to leave the monolithic realm?",
+    description: "Микросервисы. Стоит ли покидать монолитное царство?",
+    link: "https://www.it-world.ru/cionews/business/215535.html",
+    publisher: "IT World",
+    language: "Russian",
+    archive:
+      "https://web.archive.org/web/20240426184707/https://www.it-world.ru/cionews/business/215535.html",
+  },
 ];

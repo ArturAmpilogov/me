@@ -201,4 +201,14 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20240426184707/https://www.it-world.ru/cionews/business/215535.html",
   },
+  {
+    type: "article",
+    date: "2024-04-30",
+    name: "How to Use Multiple GitHub Accounts",
+    link: "https://www.infoq.com/articles/how-to-use-multiple-github-accounts/",
+    publisher: "InfoQ",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20240430180913/https://www.infoq.com/articles/how-to-use-multiple-github-accounts/",
+  },
 ];

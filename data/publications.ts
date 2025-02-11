@@ -211,4 +211,14 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20240430180913/https://www.infoq.com/articles/how-to-use-multiple-github-accounts/",
   },
+  {
+    type: "article",
+    date: "2025-01-31",
+    name: "Is DeepSeek's Influence Overblown?",
+    link: "https://dev.to/arturampilogov/examining-deepseeks-disruptive-influence-19hd",
+    publisher: "Dev.to",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20250207230949/https://dev.to/arturampilogov/examining-deepseeks-disruptive-influence-19hd",
+  },
 ];

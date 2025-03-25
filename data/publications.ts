@@ -221,4 +221,14 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20250207230949/https://dev.to/arturampilogov/examining-deepseeks-disruptive-influence-19hd",
   },
+  {
+    type: "article",
+    date: "2025-03-25",
+    name: "How Jobs and Wozniak Pioneered Apple's Breakthrough",
+    link: "https://www.linkedin.com/pulse/how-jobs-wozniak-pioneered-apples-breakthrough-artur-ampilogov-5rboe",
+    publisher: "LinkedIn",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20250325192028/https://www.linkedin.com/pulse/how-jobs-wozniak-pioneered-apples-breakthrough-artur-ampilogov-5rboe",
+  },
 ];

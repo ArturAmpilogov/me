@@ -231,4 +231,14 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20250325192028/https://www.linkedin.com/pulse/how-jobs-wozniak-pioneered-apples-breakthrough-artur-ampilogov-5rboe",
   },
+  {
+    type: "article",
+    date: "2025-05-07",
+    name: "Too Much of a Good Thing? Why Balance Drives Success",
+    link: "https://www.linkedin.com/pulse/too-much-good-thing-why-balance-drives-success-artur-ampilogov-koxze/",
+    publisher: "LinkedIn",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20250508080436/https://www.linkedin.com/pulse/too-much-good-thing-why-balance-drives-success-artur-ampilogov-koxze/",
+  },
 ];

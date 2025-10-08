@@ -2,18 +2,41 @@ import { IExperience } from "../types";
 
 export const experience: IExperience[] = [
   {
-    position: "Full-stack Engineer (full time, contract)",
-    organization: "Checkatrade (UK, remote)",
-    duration: { start: "Feb 2024", end: "current" },
+    position: "Full-stack Developer (full time, contract)",
+    organization: "Perci Health (UK, remote)",
+    duration: { start: "Apr 2025", end: "current" },
     description:
-      "Helping other teams to deliver code faster. Eliminated security report issues for two projects. Fixed important problems in cross-organization components. Improved local development environment usage with docker compose. Converted a project from JavaScript to TypeScript. Increased test coverage for many sub projects (.NET and TypeScript). Provided some form of consultancy for different teams.",
+      "Creating a new platform for the previous contract client that helps fighting cancer. The mobile application is built with Flutter, the backend is built with Node.JS and Google Firebase. Primarily, working on architecture, infrastructure, and backend development.",
     tags: [
-      "C#.NET",
       "TypeScript",
+      "Node.JS",
+      "REST API",
       "Firebase",
       "Google Cloud",
+      "Flutter",
+      "FlutterFlow",
+      "Medplum",
+      "FHIR",
+      "AI",
+    ],
+  },
+  {
+    position: "Full-stack Engineer (full time, contract)",
+    organization: "Checkatrade (UK, remote)",
+    duration: { start: "Feb 2024", end: "Mar 2025" },
+    description:
+      "Alongside feature development, contributed to an AI-powered image search prototype using GCP, Firestore, and Gemini AI. Migrated GCP Functions from v1 to v2 and upgraded backend systems to .NET 8 and .NET 9. Improved organization-wide libraries and workflows, including Streaming Pull support for GCP Pub/Sub. Enhanced observability with Datadog by implementing full request tracing and performance insights.",
+    tags: [
+      "C#.NET",
+      "ASP.NET",
+      "TypeScript",
+      "Firebase",
+      "Node.JS",
+      "Google Cloud",
       "Terraform",
-      "Docker"
+      "Docker",
+      "Datadog",
+      "AI",
     ],
   },
   {
@@ -54,7 +77,7 @@ export const experience: IExperience[] = [
       "Web3",
       "NFT",
       "Solidity",
-      "Ethereum",      
+      "Ethereum",
       "Next.js",
       "React.js",
       "Tailwind",

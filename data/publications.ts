@@ -241,4 +241,14 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20250508080436/https://www.linkedin.com/pulse/too-much-good-thing-why-balance-drives-success-artur-ampilogov-koxze/",
   },
+  {
+    type: "article",
+    date: "2025-07-25",
+    name: "Why Meta's Wristband Might Be the Real Revolution, Not the Glasses",
+    link: "https://www.linkedin.com/pulse/why-metas-wristband-might-real-revolution-glasses-artur-ampilogov-uhfje",
+    publisher: "LinkedIn",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20251008124118/https://www.linkedin.com/pulse/why-metas-wristband-might-real-revolution-glasses-artur-ampilogov-uhfje",
+  },
 ];

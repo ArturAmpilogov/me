@@ -243,12 +243,42 @@ export const publications: IPublication[] = [
   },
   {
     type: "article",
-    date: "2025-07-25",
+    date: "2025-09-25",
     name: "Why Meta's Wristband Might Be the Real Revolution, Not the Glasses",
     link: "https://www.linkedin.com/pulse/why-metas-wristband-might-real-revolution-glasses-artur-ampilogov-uhfje",
     publisher: "LinkedIn",
     language: "English",
     archive:
       "https://web.archive.org/web/20251008124118/https://www.linkedin.com/pulse/why-metas-wristband-might-real-revolution-glasses-artur-ampilogov-uhfje",
+  },
+  {
+    type: "article",
+    date: "2025-10-12",
+    name: "Concurrency and Row Versioning - Part 1",
+    link: "https://dev.to/arturampilogov/concurrency-and-row-versioning-part-1-39hn",
+    publisher: "Dev.to",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20251016194902/https://dev.to/arturampilogov/concurrency-and-row-versioning-part-1-39hn",
+  },
+  {
+    type: "article",
+    date: "2025-10-13",
+    name: "Concurrency and Transactions - Part 2",
+    link: "https://dev.to/arturampilogov/concurrency-and-transactional-row-versioning-part-2-2cbn",
+    publisher: "Dev.to",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20251016195028/https://dev.to/arturampilogov/concurrency-and-transactional-row-versioning-part-2-2cbn",
+  },
+  {
+    type: "article",
+    date: "2025-10-16",
+    name: "Concurrency and API Protection - Part 3",
+    link: "https://dev.to/arturampilogov/concurrency-and-api-protection-24kc",
+    publisher: "Dev.to",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20251016195153/https://dev.to/arturampilogov/concurrency-and-api-protection-24kc",
   },
 ];

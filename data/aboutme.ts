@@ -1,4 +1,4 @@
 export const aboutme =
-  "Over 18 years in the Information Technology area, including managing teams as CTO, Chief Architect, Lead software developer. " +
-  "Passionate about design and programming, like to help people and see information technologies improving lives. " +
-  "Europe or Middle East time zones.";
+  "Senior Full-Stack Engineer & Software Architect with 18+ years of experience building complex cloud systems, leading engineering teams, and modernizing large enterprise products. " +
+  "Held roles as CTO (part-time), Product Chief Architect, Tech Lead, and Senior Full-Stack Developer. " +
+  "Passionate about programming and design, like to help people and see information technologies improving lives. ";

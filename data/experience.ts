@@ -348,7 +348,7 @@ export const experience: IExperience[] = [
     ],
   },
   {
-    position: "C#.NET Developer (full time)",
+    position: ".NET Developer (full time)",
     organization: "Intourist - Thomas Cook (Russia, on-site)",
     duration: { start: "Nov 2010", end: "Oct 2012" },
     description:

@@ -1,4 +1,4 @@
 export const languages = {
-    primary: ["C#.NET (11 years)", "JavaScript (12 years)", "TypeScript (7 years)"],
+    primary: ["C#.NET (12 years)", "JavaScript (16 years)", "TypeScript (11 years)"],
     secondary: ["Python", "Ruby", "PHP", "Scala", "Swift", "Haskell", "F#", "C", "C++", "Rust", "Go", "Solidity"]
 };

@@ -86,7 +86,7 @@ export const experience: IExperience[] = [
     ],
   },
   {
-    position: "Senior Full Stack Engineer (full time, part time, contract)",
+    position: "Senior Full-Stack Engineer (full time, part time, contract)",
     organization: "Nodia (Germany, remote)",
     duration: { start: "Oct 2023", end: "Jan 2024" },
     description:

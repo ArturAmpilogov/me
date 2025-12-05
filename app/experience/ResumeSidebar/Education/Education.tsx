@@ -1,6 +1,7 @@
 import { EducationProps, EducationRecord } from "./Education.props";
 import styles from "./Education.module.css";
 import { Expandable, Tag, TagList } from "../../../components";
+import { JSX } from "react";
 
 export const Education = ({
   primary,

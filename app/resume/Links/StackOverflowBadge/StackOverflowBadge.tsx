@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 export const StackOverflowBadge = (): JSX.Element => {
   return (
     <a href="https://stackoverflow.com/users/304371/artur-a">

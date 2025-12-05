@@ -2,6 +2,7 @@ import { ExperienceProps } from "./Experience.props";
 import cn from "classnames";
 import styles from "./Experience.module.css";
 import { Tag, TagList } from "../../../components";
+import { JSX } from "react";
 
 export const Experience = ({
   position,

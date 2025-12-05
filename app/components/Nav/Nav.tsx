@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ReactNode } from "react";
+import { JSX, ReactNode } from "react";
 import clsx from "clsx";
 import styles from "./Nav.module.scss";
 

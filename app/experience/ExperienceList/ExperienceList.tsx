@@ -1,3 +1,4 @@
+import { JSX } from "react";
 import { Experience, ExperienceProps } from "./Experience";
 import { ExperienceListProps } from "./ExperienceList.props";
 

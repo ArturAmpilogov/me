@@ -1,6 +1,7 @@
 import { LinksProps } from "./Links.prop";
 import styles from "./Links.module.scss";
 import { StackOverflowBadge } from "./StackOverflowBadge";
+import { JSX } from "react";
 
 export const Links = ({ items, ...props }: LinksProps): JSX.Element => {
   return (

@@ -1,5 +1,6 @@
 import { PublicationProps } from "./Publication.props";
 import styles from "./Publication.module.scss";
+import { JSX } from "react";
 
 export const Publication = ({
   type,

@@ -1,6 +1,7 @@
 import { AboutProps } from "./About.props";
 import styles from "./About.module.scss";
 import cn from "classnames";
+import { JSX } from "react";
 
 export const About = ({
   children,

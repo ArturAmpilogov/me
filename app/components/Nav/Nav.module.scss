@@ -1,4 +1,4 @@
-@import "../../../styles/variables.module.scss";
+@use "../../../styles/variables";
 
 .nav {
   margin-top: 16px;
@@ -16,7 +16,7 @@
   }
 }
 
-@media (min-width: $tablet-width) {
+@media (min-width: variables.$tablet-width) {
   .nav a {
     margin-right: 16px;
 

@@ -294,7 +294,7 @@ export const experience: IExperience[] = [
     ],
   },
   {
-    position: "Principal Software Developer (full time)",
+    position: "Principal Software Developer | Senior Software Developer (full time)",
     organization: "T-Systems CIS (Russia, Germany, on-site)",
     duration: { start: "Oct 2012", end: "May 2015" },
     description:

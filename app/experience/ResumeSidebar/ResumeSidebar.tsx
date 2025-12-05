@@ -4,6 +4,7 @@ import { Skills } from "./Skills/Skills";
 import { Education } from "./Education/Education";
 import { Roles } from "./Roles/Roles";
 import styles from "./ResumeSidebar.module.css";
+import { JSX } from "react";
 
 export const ResumeSidebar = ({
   roles,

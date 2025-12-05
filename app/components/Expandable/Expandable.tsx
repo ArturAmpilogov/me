@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { JSX, useState } from "react";
 import { ExpandableProps } from "./Expandable.props";
 import styles from "./Expandable.module.css";
 

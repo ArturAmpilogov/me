@@ -1,4 +1,4 @@
-@import "../../../styles/variables.module.scss";
+@use "../../../styles/variables";
 
 .container {
   margin-bottom: 40px;
@@ -27,13 +27,13 @@
   position: relative;
 }
 
-@media (min-width: $tablet-width) {
+@media (min-width: variables.$tablet-width) {
   .image-container {
     height: 240px;
   }
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: variables.$desktop-width) {
   .image-container {
     height: 360px;
   }

@@ -1,6 +1,7 @@
 import { PublicationsProps } from "./Publications.props";
 import styles from "./Publications.module.scss";
 import { Publication } from "./Publication";
+import { JSX } from "react";
 
 export const Publications = ({
   items,

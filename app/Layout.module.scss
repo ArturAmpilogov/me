@@ -1,21 +1,21 @@
-@import "../styles/variables.module.scss";
+@use "../styles/variables";
 
 .container {
   width: fit-content;
   padding: 0 40px;
-  max-width: $max-width;
+  max-width: variables.$max-width;
 }
 
-@media (max-width: $desktop-width) {
+@media (max-width: variables.$desktop-width) {
   .container {
     padding: 0 16px;
     margin: 0 auto 50px auto;
   }
 }
 
-@media (min-width: $max-width) {
+@media (min-width: variables.$max-width) {
   .container {
-    min-width: $max-width;
+    min-width: variables.$max-width;
     margin: 0 auto 50px 50px;
   }
 }

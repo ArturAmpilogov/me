@@ -2,6 +2,7 @@ import { AboutProps } from "./About.props";
 import styles from "./About.module.scss";
 import cn from "classnames";
 import { JSX } from "react";
+import Image from "next/image";
 
 export const About = ({
   children,
@@ -14,7 +15,7 @@ export const About = ({
       <h1>About me</h1>
       <div className={styles.name}>{name}</div>
       <div className={styles.description}>
-        <img src={photoUrl} alt={`Photo ${name}`} width={160} height={168} />
+        <Image src={photoUrl} alt={`Photo ${name}`} width={160} height={168} />
         <p>
           {(children as string).split("\n\n").map((paragraph, index) => (
             <span key={index}>

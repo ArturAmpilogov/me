@@ -281,4 +281,14 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20251016195153/https://dev.to/arturampilogov/concurrency-and-api-protection-24kc",
   },
+  {
+    type: "article",
+    date: "2026-01-21",
+    name: "IT SCAM interview gaining SECRET files",
+    link: "https://www.linkedin.com/pulse/scam-interview-gaining-secret-files-artur-ampilogov-xsjmf",
+    publisher: "LinkedIn",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20260130143913/https://www.linkedin.com/pulse/scam-interview-gaining-secret-files-artur-ampilogov-xsjmf",
+  },  
 ];

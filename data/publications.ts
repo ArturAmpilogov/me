@@ -290,5 +290,15 @@ export const publications: IPublication[] = [
     language: "English",
     archive:
       "https://web.archive.org/web/20260130143913/https://www.linkedin.com/pulse/scam-interview-gaining-secret-files-artur-ampilogov-xsjmf",
-  },  
+  },
+  {
+    type: "article",
+    date: "2026-01-27",
+    name: "How to Judge Solutions Like an Engineer",
+    link: "https://dev.to/arturampilogov/how-to-judge-solutions-like-an-engineer-352i",
+    publisher: "Dev.to",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20260130144015/https://dev.to/arturampilogov/how-to-judge-solutions-like-an-engineer-352i",
+  },
 ];

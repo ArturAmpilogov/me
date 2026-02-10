@@ -301,4 +301,14 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20260130144015/https://dev.to/arturampilogov/how-to-judge-solutions-like-an-engineer-352i",
   },
+  {
+    type: "article",
+    date: "2026-02-10",
+    name: "AI Video Generation Is Leveling Up",
+    link: "https://www.linkedin.com/pulse/ai-video-generation-leveling-up-artur-ampilogov-ecopf/",
+    publisher: "LinkedIn",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20260210161445/https://www.linkedin.com/pulse/ai-video-generation-leveling-up-artur-ampilogov-ecopf/",
+  },
 ];

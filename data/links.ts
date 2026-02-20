@@ -12,7 +12,7 @@ export const links: ILink[] = [
     icon: "/img/icons/stackoverflow-48px.png",
   },
   {
-    name: "Github",
+    name: "GitHub",
     url: "https://github.com/ArturAmpilogov",
     icon: "/img/icons/github-48px.png",
   },

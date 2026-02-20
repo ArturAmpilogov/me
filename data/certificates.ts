@@ -64,7 +64,7 @@ export const certificates: {
       tags: [
         "C",
         "C++",
-        "Openmp",
+        "OpenMP",
         "CPU",
         "Distributed Computing",
         "Parallel Computing",

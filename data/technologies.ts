@@ -7,7 +7,7 @@ export const technologies = {
         "Node.JS (7 years)",
         "CSS (15 years)",
         "HTML (15 years)",
-        "Open AI/Prompt engineering (2 years)",
+        "OpenAI/Prompt engineering (2 years)",
     ],
     secondary: [
         "AWS", 

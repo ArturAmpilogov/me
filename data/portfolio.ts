@@ -86,7 +86,7 @@ export const portfolio: IPortfolio[] = [
   {
     name: "@types/react-dates",
     description:
-      "Open-source TypeScript definitions for Airbnb React dates UI controls. The definitions were required for several startups projects.",
+      "Open-source TypeScript definitions for Airbnb React dates UI controls. The definitions were required for several startup projects.",
     link: "https://www.npmjs.com/package/@types/react-dates",
   },
   {

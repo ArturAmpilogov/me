@@ -2,14 +2,14 @@
 
 .container {
   width: fit-content;
-  padding: 0 40px;
   max-width: variables.$max-width;
+  padding: 0 40px;
 }
 
 @media (max-width: variables.$desktop-width) {
   .container {
+    margin: 0 auto 50px;
     padding: 0 16px;
-    margin: 0 auto 50px auto;
   }
 }
 

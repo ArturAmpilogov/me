@@ -1,9 +1,9 @@
 @use "../../../styles/variables";
 
 .nav {
+  width: fit-content;
   margin-top: 16px;
   margin-bottom: 24px;
-  width: fit-content;
 }
 
 .list {
@@ -18,8 +18,10 @@
 
 .nav a {
   padding: 16px 4px;
-  font-size: 14px;
+
   color: var(--color-font);
+
+  font-size: 14px;
 
   &.active {
     color: var(--color-primary);

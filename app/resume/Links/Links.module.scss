@@ -4,30 +4,39 @@
   list-style-type: none;
 
   & li {
-    display: inline-block;
     position: relative;
+
+    display: inline-block;
 
     margin: 0 36px 10px 0;
 
     & img {
       position: absolute;
-      right: -16px;
-      top: -18px;
       z-index: -1;
-      opacity: 0;
+      top: -18px;
+      right: -16px;
+
       transform-origin: bottom left;
+
+      opacity: 0;
     }
 
     & a:hover img {
-      animation-name: iconAnimation;
+      animation-name: icon-animation;
       animation-duration: 0.22s;
+
       opacity: 1;
     }
   }
 }
 
-@keyframes iconAnimation {
-  0% { opacity: 0; transform: rotate(180deg); }
+@keyframes icon-animation {
+  0% { transform: rotate(180deg);
+
+ opacity: 0; }
   40% { opacity: 0.3; }
-  100% { opacity: 1; transform: rotate(360deg);}
+
+  100% { transform: rotate(360deg);
+
+ opacity: 1;}
 }

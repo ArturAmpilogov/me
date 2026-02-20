@@ -1,4 +1,4 @@
-import { LinksProps } from "./Links.prop";
+import { LinksProps } from "./Links.props";
 import styles from "./Links.module.scss";
 import { StackOverflowBadge } from "./StackOverflowBadge";
 import { JSX } from "react";

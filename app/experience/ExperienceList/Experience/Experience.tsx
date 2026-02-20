@@ -1,5 +1,5 @@
 import { ExperienceProps } from "./Experience.props";
-import cn from "classnames";
+import cn from "clsx";
 import styles from "./Experience.module.css";
 import { Tag, TagList } from "../../../components";
 import { JSX } from "react";

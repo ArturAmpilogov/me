@@ -1,4 +1,4 @@
-import { DetailedHTMLProps, HtmlHTMLAttributes } from "react";
+import { DetailedHTMLProps, HTMLAttributes } from "react";
 import { ICertificate } from "../../../../types";
 
 export interface EducationRecord extends Omit<ICertificate, "link" | "tags"> {
@@ -8,7 +8,7 @@ export interface EducationRecord extends Omit<ICertificate, "link" | "tags"> {
 
 export interface EducationProps
   extends DetailedHTMLProps<
-    HtmlHTMLAttributes<HTMLDivElement>,
+    HTMLAttributes<HTMLDivElement>,
     HTMLDivElement
   > {
   title: string;

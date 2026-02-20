@@ -1,6 +1,6 @@
 import { AboutProps } from "./About.props";
 import styles from "./About.module.scss";
-import cn from "classnames";
+import cn from "clsx";
 import { JSX } from "react";
 import Image from "next/image";
 

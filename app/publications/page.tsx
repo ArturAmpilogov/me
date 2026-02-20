@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { publications } from "../../data";
 import { Publications } from "./Publications";
 
-const sortedPublications = publications.sort(
+const sortedPublications = [...publications].sort(
   (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
 );
 

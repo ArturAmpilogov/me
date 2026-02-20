@@ -1,5 +1,5 @@
-import { DetailedHTMLProps, HtmlHTMLAttributes, JSX } from "react";
+import { DetailedHTMLProps, HTMLAttributes, JSX } from "react";
 
-export interface TagListProps extends DetailedHTMLProps<HtmlHTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+export interface TagListProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
     children: JSX.Element[],
 }

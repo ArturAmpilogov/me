@@ -1,5 +1,7 @@
 .li {
   margin-bottom: 24px;
+
+  list-style: none;
 }
 
 .position {
@@ -24,6 +26,31 @@
 
 .description {
   margin: 8px 0;
+  padding-left: 16px;
 
   font-size: 16px;
+  line-height: 1.6;
+}
+
+.description li {
+  position: relative;
+
+  margin-bottom: 6px;
+  padding-left: 12px;
+
+  list-style: none;
+}
+
+.description li::before {
+  position: absolute;
+  top: 9px;
+  left: -8px;
+
+  width: 6px;
+  height: 6px;
+
+  content: "";
+
+  border-radius: 50%;
+  background: var(--color-primary);
 }

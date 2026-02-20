@@ -1,5 +1,5 @@
 export interface IPublication {
-  type: string;
+  type: "article" | "expert commentary" | "video";
   date: string;
   name: string;
   link: string;

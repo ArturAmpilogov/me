@@ -1,7 +1,6 @@
-import { DetailedHTMLProps, HTMLAttributes, ReactNode } from "react";
+import { ReactNode } from "react";
 
-
-export interface ExpandableProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+export interface ExpandableProps {
     children: ReactNode,
     more: ReactNode,
     moreButtonText?: string,

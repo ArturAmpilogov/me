@@ -25,7 +25,7 @@ export const Education = ({
           <div className={styles.name}>{rec.name}</div>
         )}
         <div className={styles.org}>{rec.organization}</div>
-        <div className={styles.date}>{rec.dateOfIssue.toString()}</div>
+        <div className={styles.date}>{rec.dateOfIssue}</div>
         {rec.tags && (
           <TagList>
             {rec.tags.map((tag) => (
@@ -42,14 +42,14 @@ export const Education = ({
   const primaryEducation = (
     <ul className={styles.ul}>{primary.map(educationRecordToListItem)}</ul>
   );
-  const secondryEducation = secondary && (
+  const secondaryEducation = secondary && (
     <ul className={styles.ul}>{secondary.map(educationRecordToListItem)}</ul>
   );
 
-  const body = !secondryEducation ? (
+  const body = !secondaryEducation ? (
     primaryEducation
   ) : (
-    <Expandable more={secondryEducation}>{primaryEducation}</Expandable>
+    <Expandable more={secondaryEducation}>{primaryEducation}</Expandable>
   );
   return (
     <div {...props}>

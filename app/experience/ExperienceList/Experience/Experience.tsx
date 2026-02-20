@@ -19,14 +19,11 @@ export const Experience = ({
       <div
         className={styles.duration}
       >{`${duration.start}-${duration.end}`}</div>
-      <div className={styles.description}>
-        {description.split("\n").map((line, index) => (
-          <div key={index}>
-            • {line}
-            <br />
-          </div>
+      <ul className={styles.description}>
+        {description.split("\n").map((line) => (
+          <li key={line}>{line}</li>
         ))}
-      </div>
+      </ul>
       <TagList>
         {tags.map((tag) => (
           <Tag key={`${organization}-${tag}`} type="ghost" size="sm">

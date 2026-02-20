@@ -6,6 +6,6 @@ export const Roles = ({roles, ...props}: RolesProps): JSX.Element => {
     return (
     <div {...props}>
         <h2>Roles</h2>
-        <div className={styles.container}>{roles.map(role => <span key={role}>{role}</span>)}</div>
+        <ul className={styles.container}>{roles.map(role => <li key={role}>{role}</li>)}</ul>
     </div>);
 }

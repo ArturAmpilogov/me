@@ -4,8 +4,8 @@ import { SkillsProps } from "./Skills/Skills.props";
 
 export interface ResumeSidebarProps
   extends DetailedHTMLProps<
-    HTMLAttributes<HTMLDivElement>,
-    HTMLDivElement
+    HTMLAttributes<HTMLElement>,
+    HTMLElement
   > {
   languages: Pick<SkillsProps, "primary" | "secondary">;
   technologies: Pick<SkillsProps, "primary" | "secondary">;

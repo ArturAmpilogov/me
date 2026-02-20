@@ -18,6 +18,7 @@ export const Expandable = ({
         <button
           className={styles.more}
           type="button"
+          aria-expanded={showMore}
           onClick={() => setShowMore((prevShow) => !prevShow)}
         >
           {showMore ? "see less" : moreButtonText}

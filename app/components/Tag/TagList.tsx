@@ -5,7 +5,7 @@ import { JSX } from "react";
 
 export const TagList = ({children, ...props}: TagListProps): JSX.Element => {
     return (
-    <div className={cn(styles.taglist, props.className)}>
+    <div {...props} className={cn(styles.taglist, props.className)}>
         {children}
     </div>
     );

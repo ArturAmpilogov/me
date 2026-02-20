@@ -18,6 +18,11 @@ export const Publication = ({
     case "article": typePreposition = "in"; break;
     case "expert commentary": typePreposition = "for"; break;
     case "video": typePreposition = "on"; break;
+    default: {
+      const _exhaustive: never = type;
+      typePreposition = "in";
+      void _exhaustive;
+    }
   }
 
   return (

@@ -8,24 +8,30 @@ import styles from "./Nav.module.scss";
 
 const NavLink = ({ href, children }: { href: string; children: ReactNode }) => {
   const pathname = usePathname();
+  const isActive = pathname === href;
 
   return (
-    <Link
-      href={href}
-      className={clsx(pathname === href ? styles.active : undefined)}
-    >
-      {children}
-    </Link>
+    <li>
+      <Link
+        href={href}
+        className={clsx(isActive ? styles.active : undefined)}
+        aria-current={isActive ? "page" : undefined}
+      >
+        {children}
+      </Link>
+    </li>
   );
 };
 
 export const Nav = (): JSX.Element => {
   return (
-    <nav className={styles.nav}>
-      <NavLink href="/">About&nbsp;me</NavLink>
-      <NavLink href="/experience">Experience</NavLink>
-      <NavLink href="/publications">Publications</NavLink>
-      <NavLink href="/portfolio">Portfolio</NavLink>
+    <nav className={styles.nav} aria-label="Main navigation">
+      <ul className={styles.list}>
+        <NavLink href="/">About&nbsp;me</NavLink>
+        <NavLink href="/experience">Experience</NavLink>
+        <NavLink href="/publications">Publications</NavLink>
+        <NavLink href="/portfolio">Portfolio</NavLink>
+      </ul>
     </nav>
   );
 };

@@ -6,6 +6,16 @@
   width: fit-content;
 }
 
+.list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
 .nav a {
   padding: 16px 4px;
   font-size: 14px;

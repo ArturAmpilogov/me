@@ -11,20 +11,16 @@ export const About = ({
   ...props
 }: AboutProps): JSX.Element => {
   return (
-    <div {...props} className={cn(styles.container)}>
+    <div {...props} className={cn(styles.container, props.className)}>
       <h1>About me</h1>
       <div className={styles.name}>{name}</div>
       <div className={styles.description}>
         <Image src={photoUrl} alt={`Photo ${name}`} width={160} height={168} />
-        <p>
-          {(children as string).split("\n\n").map((paragraph, index) => (
-            <span key={index}>
-              {paragraph}
-              <br />
-              <br />
-            </span>
+        <div>
+          {children.split("\n\n").map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
           ))}
-        </p>
+        </div>
       </div>
     </div>
   );

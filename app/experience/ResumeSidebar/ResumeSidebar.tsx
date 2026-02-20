@@ -15,7 +15,7 @@ export const ResumeSidebar = ({
   ...props
 }: ResumeSidebarProps): JSX.Element => {
   return (
-    <aside className={clsx(styles.sidebar, props.className)} {...props}>
+    <aside {...props} className={clsx(styles.sidebar, props.className)}>
       <Roles roles={roles} />
       <Skills
         {...languages}

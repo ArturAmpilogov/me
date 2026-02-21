@@ -1,6 +1,8 @@
 import { DetailedHTMLProps, HTMLAttributes } from "react";
 
-
-export interface RolesProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
-    roles: string[]
+export interface RolesProps extends DetailedHTMLProps<
+  HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+> {
+  roles: string[];
 }

@@ -3,10 +3,7 @@ import styles from "./Publications.module.scss";
 import { Publication } from "./Publication";
 import { JSX } from "react";
 
-export const Publications = ({
-  items,
-  ...props
-}: PublicationsProps): JSX.Element => {
+export const Publications = ({ items, ...props }: PublicationsProps): JSX.Element => {
   return (
     <div {...props} className={styles.container}>
       <h1>Publications</h1>

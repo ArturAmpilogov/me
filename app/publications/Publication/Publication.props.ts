@@ -1,3 +1,3 @@
-import { IPublication } from "../../../types";
+import { IPublication } from "@/types";
 
-export interface PublicationProps extends IPublication {}
+export type PublicationProps = IPublication;

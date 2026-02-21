@@ -1,5 +1,5 @@
 import Script from "next/script";
-import { Nav } from "./components/Nav/Nav";
+import { Nav } from "./components";
 import { PropsWithChildren } from "react";
 import { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
@@ -8,6 +8,7 @@ import clsx from "clsx";
 import "../styles/global.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ampilogov.com"),
   manifest: "/site.webmanifest",
   icons: {
     apple: {
@@ -30,8 +31,20 @@ export const metadata: Metadata = {
       },
     ],
   },
-  title: "Artur Ampilogov",
-  description: "Resume Artur Ampilogov",
+  title: {
+    default: "Artur Ampilogov — Software Architect & Senior Full-Stack Engineer",
+    template: "%s | Artur Ampilogov",
+  },
+  description:
+    "Staff-level Software Architect & Senior Full-Stack Engineer with 18+ years of experience in cloud architectures, engineering leadership, and full-stack development.",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Artur Ampilogov",
+  },
+  twitter: {
+    card: "summary",
+  },
 };
 
 const openSans = Open_Sans({ subsets: ["latin"], weight: ["500", "700"] });

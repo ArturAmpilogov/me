@@ -5,11 +5,12 @@
 }
 
 .position {
-  margin-bottom: 4px;
+  margin: 0 0 4px;
 
   color: var(--color-primary);
 
   font-size: 18px;
+  font-weight: 700;
 }
 
 .organization {

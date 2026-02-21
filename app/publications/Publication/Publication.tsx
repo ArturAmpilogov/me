@@ -13,11 +13,17 @@ export const Publication = ({
   language,
 }: PublicationProps): JSX.Element => {
   const typeCapitalized = type.charAt(0).toUpperCase() + type.slice(1);
-  let typePreposition = '';
+  let typePreposition = "";
   switch (type) {
-    case "article": typePreposition = "in"; break;
-    case "expert commentary": typePreposition = "for"; break;
-    case "video": typePreposition = "on"; break;
+    case "article":
+      typePreposition = "in";
+      break;
+    case "expert commentary":
+      typePreposition = "for";
+      break;
+    case "video":
+      typePreposition = "on";
+      break;
     default: {
       const _exhaustive: never = type;
       typePreposition = "in";
@@ -45,9 +51,7 @@ export const Publication = ({
       {language && <div>Language: {language}</div>}
       <div className={styles.footer}>
         <span className={styles.date}>{date}</span>{" "}
-        <span
-          className={styles.type}
-        >{`${typeCapitalized} ${typePreposition} `}</span>{" "}
+        <span className={styles.type}>{`${typeCapitalized} ${typePreposition} `}</span>{" "}
         <span className={styles.publisher}>{publisher}</span>
       </div>
     </li>

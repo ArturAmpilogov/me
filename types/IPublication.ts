@@ -5,6 +5,6 @@ export interface IPublication {
   link: string;
   publisher: string;
   description?: string;
-  language: string;
+  language: "English" | "Russian";
   archive?: string;
 }

@@ -1,7 +1,7 @@
 import { ExperienceProps } from "./Experience.props";
-import cn from "clsx";
+import clsx from "clsx";
 import styles from "./Experience.module.css";
-import { Tag, TagList } from "../../../components";
+import { Tag, TagList } from "@/app/components";
 import { JSX } from "react";
 
 export const Experience = ({
@@ -13,15 +13,13 @@ export const Experience = ({
   ...props
 }: ExperienceProps): JSX.Element => {
   return (
-    <li {...props} className={cn(styles.li, props.className)}>
-      <div className={styles.position}>{position}</div>
+    <li {...props} className={clsx(styles.li, props.className)}>
+      <h3 className={styles.position}>{position}</h3>
       <div className={styles.organization}>{organization}</div>
-      <div
-        className={styles.duration}
-      >{`${duration.start}-${duration.end}`}</div>
+      <div className={styles.duration}>{`${duration.start} – ${duration.end}`}</div>
       <ul className={styles.description}>
-        {description.split("\n").map((line) => (
-          <li key={line}>{line}</li>
+        {description.split("\n").map((line, index) => (
+          <li key={`${index}-${line.slice(0, 40)}`}>{line}</li>
         ))}
       </ul>
       <TagList>

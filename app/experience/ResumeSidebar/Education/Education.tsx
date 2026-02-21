@@ -1,24 +1,15 @@
-import { EducationProps, EducationRecord } from "./Education.props";
+import { EducationProps } from "./Education.props";
+import { IEducation } from "@/types";
 import styles from "./Education.module.css";
-import { Expandable, Tag, TagList } from "../../../components";
+import { Expandable, Tag, TagList } from "@/app/components";
 import { JSX } from "react";
 
-export const Education = ({
-  primary,
-  secondary,
-  title,
-  ...props
-}: EducationProps): JSX.Element => {
-  const educationRecordToListItem = (rec: EducationRecord) => {
+export const Education = ({ primary, secondary, title, ...props }: EducationProps): JSX.Element => {
+  const educationRecordToListItem = (rec: IEducation) => {
     return (
       <li className={styles.li} key={`${rec.name}-${rec.dateOfIssue}`}>
         {rec.link ? (
-          <a
-            href={rec.link}
-            target="_blank"
-            rel="noreferrer"
-            className={styles.name}
-          >
+          <a href={rec.link} target="_blank" rel="noreferrer" className={styles.name}>
             {rec.name}
           </a>
         ) : (
@@ -39,9 +30,7 @@ export const Education = ({
     );
   };
 
-  const primaryEducation = (
-    <ul className={styles.ul}>{primary.map(educationRecordToListItem)}</ul>
-  );
+  const primaryEducation = <ul className={styles.ul}>{primary.map(educationRecordToListItem)}</ul>;
   const secondaryEducation = secondary && (
     <ul className={styles.ul}>{secondary.map(educationRecordToListItem)}</ul>
   );

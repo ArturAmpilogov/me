@@ -29,8 +29,7 @@ export const publications: IPublication[] = [
     link: "https://habr.com/ru/articles/262409/",
     publisher: "Habr",
     language: "Russian",
-    archive:
-      "https://web.archive.org/web/20230612184153/https://habr.com/ru/articles/262409/",
+    archive: "https://web.archive.org/web/20230612184153/https://habr.com/ru/articles/262409/",
   },
   {
     type: "article",
@@ -40,8 +39,7 @@ export const publications: IPublication[] = [
     link: "https://habr.com/ru/articles/266299/",
     publisher: "Habr",
     language: "Russian",
-    archive:
-      "https://web.archive.org/web/20230612184431/https://habr.com/ru/articles/266299/",
+    archive: "https://web.archive.org/web/20230612184431/https://habr.com/ru/articles/266299/",
   },
   {
     type: "article",
@@ -187,8 +185,7 @@ export const publications: IPublication[] = [
     link: "http://bit.samag.ru/archive/more/238",
     publisher: "BIT. Business and Information Technology, ISSN 2313-8718",
     language: "Russian",
-    archive:
-      "https://web.archive.org/web/20240228163529/http://bit.samag.ru/archive/more/238",
+    archive: "https://web.archive.org/web/20240228163529/http://bit.samag.ru/archive/more/238",
   },
   {
     type: "article",

@@ -21,7 +21,8 @@
       opacity: 0;
     }
 
-    & a:hover img {
+    & a:hover img,
+    & a:focus img {
       animation-name: icon-animation;
       animation-duration: 0.22s;
 
@@ -30,13 +31,25 @@
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .ul li a:hover img,
+  .ul li a:focus img {
+    animation: none;
+  }
+}
+
 @keyframes icon-animation {
-  0% { transform: rotate(180deg);
+  0% {
+    transform: rotate(180deg);
+    opacity: 0;
+  }
 
- opacity: 0; }
-  40% { opacity: 0.3; }
+  40% {
+    opacity: 0.3;
+  }
 
-  100% { transform: rotate(360deg);
-
- opacity: 1;}
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
 }

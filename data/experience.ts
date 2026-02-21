@@ -379,15 +379,7 @@ export const experience: IExperience[] = [
       "Developed and supported internal IT systems for the Psychology Institute, primarily building workflows and document-processing features on Microsoft SharePoint (MOSS 2007) for 20 staff members.\n" +
       "Collaborated directly with the dean and head of IT to implement digital workflows, automate administrative processes, and improve internal operations.\n" +
       "Maintained and extended supporting systems (C#, ASP.NET, MS SQL) and assisted with network expansion for a newly opened building.",
-    tags: [
-      "C#.NET",
-      "WinForms",
-      "ASP.NET",
-      "ADO.NET",
-      "PHP",
-      "SharePoint",
-      "MS SQL",
-    ],
+    tags: ["C#.NET", "WinForms", "ASP.NET", "ADO.NET", "PHP", "SharePoint", "MS SQL"],
   },
   {
     position: "Teacher of the IT course (contract, part time)",
@@ -429,13 +421,6 @@ export const experience: IExperience[] = [
       "Worked part-time as a junior software engineer in an SEO and web-development group, building and updating client-facing websites using PHP, ASP Classic, JavaScript, and HTML/CSS.\n" +
       "Implemented technical SEO improvements and site-level optimizations that increased search visibility for multiple clients.\n" +
       "Gained early full-stack experience across legacy and modern stacks while supporting small clients with rapid feature updates and fixes.",
-    tags: [
-      "PHP",
-      "C#.NET",
-      "ASP Classic",
-      "Macromedia Flash CS3",
-      "CSS",
-      "JavaScript",
-    ],
+    tags: ["PHP", "C#.NET", "ASP Classic", "Macromedia Flash CS3", "CSS", "JavaScript"],
   },
 ];

@@ -6,21 +6,14 @@ export const portfolio: IPortfolio[] = [
     description:
       "Digital exhibitions. The project is built with React.JS, Next.JS, TailwindCSS, TypeScript, Firebase, Solidity and Ethereum blockchain. The project has not been released live yet.",
     link: "https://www.linkedin.com/in/artur-ampilogov/",
-    images: [
-      "/img/portfolio/aarrcc.webp",
-      "/img/portfolio/aarrcc_wallet_selection.png",
-    ],
+    images: ["/img/portfolio/aarrcc.webp", "/img/portfolio/aarrcc_wallet_selection.png"],
     imageMaxWidth: 600,
   },
   {
     name: "Perci Health Referrals",
-    description:
-      "Referral system for the Healthcare startup, made with React.JS and Firebase.",
+    description: "Referral system for the Healthcare startup, made with React.JS and Firebase.",
     link: "https://www.percihealth.com/",
-    images: [
-      "/img/portfolio/perci_referral.webp",
-      "/img/portfolio/perci_referral.png",
-    ],
+    images: ["/img/portfolio/perci_referral.webp", "/img/portfolio/perci_referral.png"],
     imageMaxWidth: 600,
   },
   {
@@ -41,10 +34,7 @@ export const portfolio: IPortfolio[] = [
     description:
       "Mining safety robot. The work included UX research and software creation for the tablet controller of the robot.",
     link: "https://vimeo.com/85248707",
-    images: [
-      "/img/portfolio/minespector_ui.png",
-      "/img/portfolio/minespector.webp",
-    ],
+    images: ["/img/portfolio/minespector_ui.png", "/img/portfolio/minespector.webp"],
     imageMaxWidth: 600,
   },
   {
@@ -56,13 +46,9 @@ export const portfolio: IPortfolio[] = [
   },
   {
     name: "WPF/XAML themes for Microsoft.NET",
-    description:
-      "An open-source project with WPF/XAML themes for Microsoft.NET.",
+    description: "An open-source project with WPF/XAML themes for Microsoft.NET.",
     link: "https://github.com/ArturAmpilogov/WpfThemesHR",
-    images: [
-      "/img/portfolio/wpf_theme_1.png",
-      "/img/portfolio/wpf_theme_2.png",
-    ],
+    images: ["/img/portfolio/wpf_theme_1.png", "/img/portfolio/wpf_theme_2.png"],
     imageMaxWidth: 600,
   },
   {

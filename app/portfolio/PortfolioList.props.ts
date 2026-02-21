@@ -1,4 +1,4 @@
-import { IPortfolio } from "../../types";
+import { IPortfolio } from "@/types";
 
 export interface PortfolioListProps {
   items: IPortfolio[];

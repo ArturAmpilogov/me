@@ -23,7 +23,7 @@ jobs:
       - name: Install node_modules
         run: npm ci
       - name: ES lint
-        run: npm run lint
+        run: npm run eslint
       - name: Style lint
         run: npm run stylelint
       - name: Build site

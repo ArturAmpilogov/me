@@ -1,5 +1,5 @@
 import { JSX } from "react";
-import { Expandable, Tag, TagList } from "../../../components";
+import { Expandable, Tag, TagList } from "@/app/components";
 import { SkillsProps } from "./Skills.props";
 
 export const Skills = ({

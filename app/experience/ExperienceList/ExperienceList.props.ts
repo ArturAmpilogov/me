@@ -1,6 +1,9 @@
-import { DetailedHTMLProps, HtmlHTMLAttributes } from "react";
-import { ExperienceProps } from "./Experience";
+import { DetailedHTMLProps, HTMLAttributes } from "react";
+import { IExperience } from "@/types";
 
-export interface ExperienceListProps extends DetailedHTMLProps<HtmlHTMLAttributes<HTMLUListElement>, HTMLUListElement> {
-    items: ExperienceProps[]
+export interface ExperienceListProps extends DetailedHTMLProps<
+  HTMLAttributes<HTMLUListElement>,
+  HTMLUListElement
+> {
+  items: IExperience[];
 }

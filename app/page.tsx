@@ -1,6 +1,6 @@
 import { About, Links } from "./resume";
 
-import { aboutme, links } from "../data";
+import { aboutme, links } from "@/data";
 
 export default function HomePage() {
   return (
@@ -9,12 +9,12 @@ export default function HomePage() {
         {aboutme}
       </About>
       <Links items={links} />
-      <div>
+      <section aria-label="CV download">
         <h2>CV</h2>
         <a href="/CV-Artur-Ampilogov.pdf" target="_blank" rel="noreferrer">
           CV-Artur-Ampilogov.pdf
         </a>
-      </div>
+      </section>
     </main>
   );
 }

@@ -1,10 +1,6 @@
 {
-  "extends": [
-    "stylelint-config-standard"
-  ],
-  "plugins": [
-    "stylelint-order"
-  ],
+  "extends": ["stylelint-config-standard", "stylelint-config-standard-scss"],
+  "plugins": ["stylelint-order"],
   "rules": {
     "declaration-empty-line-before": null,
     "order/order": [
@@ -19,14 +15,7 @@
     "order/properties-order": [
       {
         "emptyLineBefore": "always",
-        "properties": [
-          "position",
-          "z-index",
-          "top",
-          "right",
-          "bottom",
-          "left"
-        ]
+        "properties": ["position", "z-index", "top", "right", "bottom", "left"]
       },
       {
         "emptyLineBefore": "always",

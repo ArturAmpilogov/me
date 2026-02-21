@@ -1,4 +1,4 @@
-export const aboutme =
+export const aboutme: string =
   "Staff-level Software Architect & Senior Full-Stack Engineer with 18+ years of experience designing cloud architectures, leading engineering initiatives, and delivering large, multi-system platforms across healthcare, marketplaces, and enterprise domains. I've built and scaled systems on Node.js, TypeScript, .NET, GCP, AWS, Azure, and modern frontend/mobile stacks.\n\n" +
   "I have served as CTO, Product Chief Architect, Tech Lead, and Senior Engineer, owning architecture, backend foundations, data models, API design, and high-impact integrations across distributed systems. I'm frequently brought in to solve complex technical problems, unblock teams, and deliver critical product milestones under tight deadlines.\n\n" +
   "My work spans healthtech (FHIR, clinical workflows, EMR/FHIR systems), large marketplaces, pricing platforms, AI integrations, high-throughput backend services (1M connections), and scalable cloud-native applications. I care deeply about engineering excellence, developer experience, and using technology to improve real-world outcomes.";

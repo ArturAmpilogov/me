@@ -29,8 +29,7 @@ export const publications: IPublication[] = [
     link: "https://habr.com/ru/articles/262409/",
     publisher: "Habr",
     language: "Russian",
-    archive:
-      "https://web.archive.org/web/20230612184153/https://habr.com/ru/articles/262409/",
+    archive: "https://web.archive.org/web/20230612184153/https://habr.com/ru/articles/262409/",
   },
   {
     type: "article",
@@ -40,8 +39,7 @@ export const publications: IPublication[] = [
     link: "https://habr.com/ru/articles/266299/",
     publisher: "Habr",
     language: "Russian",
-    archive:
-      "https://web.archive.org/web/20230612184431/https://habr.com/ru/articles/266299/",
+    archive: "https://web.archive.org/web/20230612184431/https://habr.com/ru/articles/266299/",
   },
   {
     type: "article",
@@ -79,7 +77,7 @@ export const publications: IPublication[] = [
   {
     type: "expert commentary",
     date: "2023-07-27",
-    name: "Who is a Python developer and what does they do?",
+    name: "Who is a Python developer and what do they do?",
     description: "Кто такой разработчик Python и чем он занимается?",
     link: "https://blog.skillfactory.ru/python-developer/",
     publisher: "Skillfactory",
@@ -150,7 +148,7 @@ export const publications: IPublication[] = [
   {
     type: "expert commentary",
     date: "2023-09-18",
-    name: "A trial ball. Who does block YouTube in Crimea",
+    name: "A trial ball. Who blocks YouTube in Crimea",
     description: "Пробный шар. Как блокируют YouTube в Крыму",
     link: "https://www.svoboda.org/a/probnyy-shar-kak-blokiruyut-youtube-v-krymu/32596681.html",
     publisher: "Radio Liberty",
@@ -187,13 +185,12 @@ export const publications: IPublication[] = [
     link: "http://bit.samag.ru/archive/more/238",
     publisher: "BIT. Business and Information Technology, ISSN 2313-8718",
     language: "Russian",
-    archive:
-      "https://web.archive.org/web/20240228163529/http://bit.samag.ru/archive/more/238",
+    archive: "https://web.archive.org/web/20240228163529/http://bit.samag.ru/archive/more/238",
   },
   {
     type: "article",
     date: "2024-04-19",
-    name: "Microservices. Is it worth to leave the monolithic realm?",
+    name: "Microservices. Is it worth leaving the monolithic realm?",
     description: "Микросервисы. Стоит ли покидать монолитное царство?",
     link: "https://www.it-world.ru/cionews/business/215535.html",
     publisher: "IT World",

@@ -1,10 +1,9 @@
-import { DetailedHTMLProps, HtmlHTMLAttributes, ReactNode } from "react";
-import { IPublication } from "../../types";
+import { DetailedHTMLProps, HTMLAttributes } from "react";
+import { IPublication } from "@/types";
 
-export interface PublicationsProps
-  extends DetailedHTMLProps<
-    HtmlHTMLAttributes<HTMLDivElement>,
-    HTMLDivElement
-  > {
+export interface PublicationsProps extends DetailedHTMLProps<
+  HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+> {
   items: IPublication[];
 }

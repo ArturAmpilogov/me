@@ -10,14 +10,7 @@ export const certificates: {
       organization: "European Information Technologies Certification Institute",
       dateOfIssue: "2023",
       link: "/certificates/EITCA-AI.pdf",
-      tags: [
-        "AI",
-        "Machine Learning",
-        "GCP",
-        "Pytorch",
-        "Tensorflow",
-        "Python",
-      ],
+      tags: ["AI", "Machine Learning", "GCP", "Pytorch", "Tensorflow", "Python"],
     },
     {
       name: "Microsoft Certified Solutions Developer: App Builder",
@@ -61,14 +54,7 @@ export const certificates: {
       organization: "Intel (via Coursera)",
       dateOfIssue: "2021",
       link: "/certificates/Intel-Parallelism.pdf",
-      tags: [
-        "C",
-        "C++",
-        "Openmp",
-        "CPU",
-        "Distributed Computing",
-        "Parallel Computing",
-      ],
+      tags: ["C", "C++", "OpenMP", "CPU", "Distributed Computing", "Parallel Computing"],
     },
     {
       name: "Introduction to NoSQL Databases",
@@ -89,13 +75,7 @@ export const certificates: {
       organization: "Rice University (via Coursera)",
       dateOfIssue: "2021",
       link: "/certificates/Rice-Distributed.pdf",
-      tags: [
-        "Java",
-        "Parallel Computing",
-        "Distributed Computing",
-        "Hadoop",
-        "Spark",
-      ],
+      tags: ["Java", "Parallel Computing", "Distributed Computing", "Hadoop", "Spark"],
     },
     {
       name: "CS50x",
@@ -116,27 +96,14 @@ export const certificates: {
       organization: "Microsoft",
       dateOfIssue: "2013",
       link: "/certificates/MCP-WinApps.pdf",
-      tags: [
-        "WPF",
-        "Windows Presentation Foundation",
-        "WinForms",
-        "Linq",
-        "XAML",
-      ],
+      tags: ["WPF", "Windows Presentation Foundation", "WinForms", "Linq", "XAML"],
     },
     {
       name: "Microsoft Certified Professional: Service Communication Applications",
       organization: "Microsoft",
       dateOfIssue: "2012",
       link: "/certificates/MCP-WCF.pdf",
-      tags: [
-        "WCF",
-        "Windows Communication Foundation",
-        ".NET",
-        "REST",
-        "Security",
-        "Logging",
-      ],
+      tags: ["WCF", "Windows Communication Foundation", ".NET", "REST", "Security", "Logging"],
     },
 
     {

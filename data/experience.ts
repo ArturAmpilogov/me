@@ -90,7 +90,7 @@ export const experience: IExperience[] = [
     organization: "Nodia (Germany, remote)",
     duration: { start: "Oct 2023", end: "Jan 2024" },
     description:
-      "Worked as the sole engineer building a greenfield Web3/NFT application for a German art exhibition startup, collaborating with the designer-founder and visioner-founder to turn physical artwork into minted NFTs.\n" +
+      "Worked as the sole engineer building a greenfield Web3/NFT application for a German art exhibition startup, collaborating with the designer-founder and visionary-founder to turn physical artwork into minted NFTs.\n" +
       "Developed the full stack using Next.js (App Router), TypeScript, Tailwind, and Firebase.\n" +
       "Built Solidity smart contracts and Hardhat pipelines for NFT minting, implemented wallet authentication (Web3Auth, WalletConnect), and integrated IPFS for asset storage.\n" +
       "Delivered a complete, production-ready application under an intensive timeline covering both frontend and backend complexity.",
@@ -105,7 +105,7 @@ export const experience: IExperience[] = [
       "TypeScript",
       "REST API",
       "Firebase",
-      "Github",
+      "GitHub",
       "Stripe",
       "Web3Auth",
       "WalletConnect",
@@ -137,11 +137,11 @@ export const experience: IExperience[] = [
       "Yandex Cloud",
       "Terraform",
       "Docker Swarm",
-      "Github",
+      "GitHub",
       "CI",
       "Postgres",
       "Sequelize",
-      "Mongo DB",
+      "MongoDB",
       "Redis",
     ],
   },
@@ -160,7 +160,7 @@ export const experience: IExperience[] = [
       "Collaborated daily with the CEO and product leadership, shaping technical decisions and delivering at a pace that consistently exceeded expectations.",
     tags: [
       "GPT",
-      "Open AI",
+      "OpenAI",
       "Prompt engineering",
       "TypeScript",
       "React.JS",
@@ -224,7 +224,7 @@ export const experience: IExperience[] = [
       "Jenkins",
       "Docker",
       "Ansible",
-      "Github",
+      "GitHub",
       "MS SQL",
     ],
   },
@@ -276,7 +276,7 @@ export const experience: IExperience[] = [
       "WCF",
       "Umbraco",
       "Xamarin",
-      "Sharepoint",
+      "SharePoint",
       "React.JS",
       "Angular",
       "JavaScript",
@@ -285,11 +285,11 @@ export const experience: IExperience[] = [
       "Node.JS",
       "CSS",
       "Mocha",
-      "Jasmin",
+      "Jasmine",
       "nUnit",
       "Azure",
       "MS SQL",
-      "Mongo DB",
+      "MongoDB",
       "DDD",
     ],
   },
@@ -309,7 +309,7 @@ export const experience: IExperience[] = [
       "WCF",
       "MVVM",
       "Microsoft PRISM",
-      "Devexpress",
+      "DevExpress",
       "Linq",
       "Entity Framework",
       "nUnit",
@@ -379,15 +379,7 @@ export const experience: IExperience[] = [
       "Developed and supported internal IT systems for the Psychology Institute, primarily building workflows and document-processing features on Microsoft SharePoint (MOSS 2007) for 20 staff members.\n" +
       "Collaborated directly with the dean and head of IT to implement digital workflows, automate administrative processes, and improve internal operations.\n" +
       "Maintained and extended supporting systems (C#, ASP.NET, MS SQL) and assisted with network expansion for a newly opened building.",
-    tags: [
-      "C#.NET",
-      "WinForms",
-      "ASP.NET",
-      "ADO.NET",
-      "PHP",
-      "Sharepoint",
-      "MS SQL",
-    ],
+    tags: ["C#.NET", "WinForms", "ASP.NET", "ADO.NET", "PHP", "SharePoint", "MS SQL"],
   },
   {
     position: "Teacher of the IT course (contract, part time)",
@@ -429,13 +421,6 @@ export const experience: IExperience[] = [
       "Worked part-time as a junior software engineer in an SEO and web-development group, building and updating client-facing websites using PHP, ASP Classic, JavaScript, and HTML/CSS.\n" +
       "Implemented technical SEO improvements and site-level optimizations that increased search visibility for multiple clients.\n" +
       "Gained early full-stack experience across legacy and modern stacks while supporting small clients with rapid feature updates and fixes.",
-    tags: [
-      "PHP",
-      "C#.NET",
-      "ASP Classic",
-      "Macromedia Flash CS3",
-      "CSS",
-      "JavaScript",
-    ],
+    tags: ["PHP", "C#.NET", "ASP Classic", "Macromedia Flash CS3", "CSS", "JavaScript"],
   },
 ];

@@ -1,6 +1,6 @@
 "use client";
 
-import { JSX, useState } from "react";
+import { JSX, useId, useState } from "react";
 import { ExpandableProps } from "./Expandable.props";
 import styles from "./Expandable.module.css";
 
@@ -10,6 +10,7 @@ export const Expandable = ({
   moreButtonText = "see more",
 }: ExpandableProps): JSX.Element => {
   const [showMore, setShowMore] = useState(false);
+  const contentId = useId();
 
   return (
     <>
@@ -18,12 +19,14 @@ export const Expandable = ({
         <button
           className={styles.more}
           type="button"
+          aria-expanded={showMore}
+          aria-controls={contentId}
           onClick={() => setShowMore((prevShow) => !prevShow)}
         >
           {showMore ? "see less" : moreButtonText}
         </button>
       )}
-      {showMore && more}
+      {showMore && <div id={contentId}>{more}</div>}
     </>
   );
 };

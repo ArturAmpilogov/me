@@ -3,18 +3,12 @@ import { Metadata } from "next";
 import { ExperienceList } from "./ExperienceList";
 import { ResumeSidebar } from "./ResumeSidebar";
 
-import {
-  languages,
-  roles,
-  technologies,
-  education,
-  certificates,
-  experience,
-} from "../../data";
+import { languages, roles, technologies, education, certificates, experience } from "@/data";
 
 export const metadata: Metadata = {
-  title: "Artur Ampilogov's Experience",
-  description: "Artur Ampilogov's Experience",
+  title: "Experience",
+  description:
+    "Professional experience spanning 18+ years across healthcare, marketplaces, enterprise platforms, and cloud-native systems.",
 };
 
 export default function ExperiencePage() {

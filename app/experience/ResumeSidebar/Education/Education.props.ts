@@ -1,17 +1,11 @@
-import { DetailedHTMLProps, HtmlHTMLAttributes } from "react";
-import { ICertificate } from "../../../../types";
+import { DetailedHTMLProps, HTMLAttributes } from "react";
+import { IEducation } from "@/types";
 
-export interface EducationRecord extends Omit<ICertificate, "link" | "tags"> {
-  link?: string;
-  tags?: string[];
-}
-
-export interface EducationProps
-  extends DetailedHTMLProps<
-    HtmlHTMLAttributes<HTMLDivElement>,
-    HTMLDivElement
-  > {
+export interface EducationProps extends DetailedHTMLProps<
+  HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+> {
   title: string;
-  primary: EducationRecord[];
-  secondary?: EducationRecord[];
+  primary: IEducation[];
+  secondary?: IEducation[];
 }

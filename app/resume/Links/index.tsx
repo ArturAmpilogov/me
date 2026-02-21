@@ -1,2 +1,2 @@
 export * from "./Links";
-export * from "./Links.prop";
+export * from "./Links.props";

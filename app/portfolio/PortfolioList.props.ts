@@ -1,10 +1,5 @@
-import { DetailedHTMLProps, HtmlHTMLAttributes, ReactNode } from "react";
-import { IPortfolio } from "../../types";
+import { IPortfolio } from "@/types";
 
-export interface PortfolioListProps
-  extends DetailedHTMLProps<
-    HtmlHTMLAttributes<HTMLDivElement>,
-    HTMLDivElement
-  > {
+export interface PortfolioListProps {
   items: IPortfolio[];
 }

@@ -1,8 +1,9 @@
 import { DetailedHTMLProps, HTMLAttributes } from "react";
+import { ILink } from "@/types";
 
-export interface RolesProps extends DetailedHTMLProps<
+export interface LinksProps extends DetailedHTMLProps<
   HTMLAttributes<HTMLDivElement>,
   HTMLDivElement
 > {
-  roles: string[];
+  items: ILink[];
 }

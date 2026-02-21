@@ -41,6 +41,7 @@
 @keyframes icon-animation {
   0% {
     transform: rotate(180deg);
+
     opacity: 0;
   }
 
@@ -50,6 +51,7 @@
 
   100% {
     transform: rotate(360deg);
+
     opacity: 1;
   }
 }

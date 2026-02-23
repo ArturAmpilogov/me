@@ -4,5 +4,5 @@ export interface RolesProps extends DetailedHTMLProps<
   HTMLAttributes<HTMLDivElement>,
   HTMLDivElement
 > {
-  roles: string[];
+  roles: readonly string[];
 }

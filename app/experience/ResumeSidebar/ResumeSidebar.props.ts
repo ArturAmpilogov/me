@@ -8,7 +8,7 @@ export interface ResumeSidebarProps extends DetailedHTMLProps<
 > {
   languages: Pick<SkillsProps, "primary" | "secondary">;
   technologies: Pick<SkillsProps, "primary" | "secondary">;
-  roles: string[];
+  roles: readonly string[];
   education: Pick<EducationProps, "primary" | "secondary">;
   certificates: Pick<EducationProps, "primary" | "secondary">;
 }

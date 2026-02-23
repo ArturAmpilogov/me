@@ -6,6 +6,6 @@ export interface SkillsProps extends DetailedHTMLProps<
 > {
   title: string;
   moreButtonText?: string;
-  primary: string[];
-  secondary: string[];
+  primary: readonly string[];
+  secondary: readonly string[];
 }

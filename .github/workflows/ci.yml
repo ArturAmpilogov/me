@@ -9,7 +9,7 @@ on:
     paths-ignore:
       - "**/README.md"
 
-# Deployments are handled by the Vercel Git integration (preview per PR, production on main).
+# Production deployments are handled by the Vercel Git integration on merge to main (no previews, see vercel.json).
 jobs:
   checks:
     name: Lint and build

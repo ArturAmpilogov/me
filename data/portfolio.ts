@@ -2,6 +2,14 @@ import { IPortfolio } from "../types";
 
 export const portfolio: IPortfolio[] = [
   {
+    name: "Ampilogov surname history",
+    description:
+      "A documentary history of the Ampilogov surname in multiple languages, with a story, archival records, person cards, a family tree, and a migration map. AI agents searched and parsed online archives for two months to collect the data. It is the world's first research of the surname in such detail, with findings backed by archival documents and examples.",
+    link: "https://www.ampilogov.com/en",
+    images: ["/img/portfolio/ampilogov_story.png", "/img/portfolio/ampilogov_map.png"],
+    imageMaxWidth: 600,
+  },
+  {
     name: "Nodia",
     description:
       "Digital exhibitions. The project is built with React.JS, Next.JS, TailwindCSS, TypeScript, Firebase, Solidity and Ethereum blockchain. The project has not been released live yet.",

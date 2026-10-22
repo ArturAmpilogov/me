@@ -1,0 +1,4 @@
+# Both ship prebuilt binaries via optional dependencies; their install scripts are not needed.
+allowBuilds:
+  "@parcel/watcher": false
+  unrs-resolver: false

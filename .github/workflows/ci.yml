@@ -1,17 +1,18 @@
-name: Next.JS to Vercel
+name: CI
 on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  # Merge to main
+  pull_request:
   push:
     branches:
       - main
     paths-ignore:
       - "**/README.md"
 
+# Deployments are handled by the Vercel Git integration (preview per PR, production on main).
 jobs:
-  vercel:
-    name: Vercel
+  checks:
+    name: Lint and build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -29,17 +30,16 @@ jobs:
         run: pnpm eslint
       - name: Style lint
         run: pnpm stylelint
+      - name: Format check
+        run: pnpm format-check
+      - name: Type check
+        run: pnpm type-check
+      - name: Next.js build cache
+        uses: actions/cache@v6
+        with:
+          path: .next/cache
+          key: nextjs-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ hashFiles('**/*.ts', '**/*.tsx', '**/*.scss', '**/*.css') }}
+          restore-keys: |
+            nextjs-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-
       - name: Build site
         run: pnpm build
-      - name: "Deploy to Vercel"
-        run: |
-          prodRun=""
-          if [[ ${GITHUB_REF} == "refs/heads/main" ]]; then
-            prodRun="--prod"
-          fi
-
-          pnpm dlx vercel --token ${VERCEL_TOKEN} $prodRun
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}

@@ -16,19 +16,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
       - name: Use Node.js
         uses: actions/setup-node@v7
         with:
           node-version-file: .nvmrc
-          cache: npm
+          cache: pnpm
       - name: Install node_modules
-        run: npm ci
+        run: pnpm install --frozen-lockfile
       - name: ES lint
-        run: npm run eslint
+        run: pnpm eslint
       - name: Style lint
-        run: npm run stylelint
+        run: pnpm stylelint
       - name: Build site
-        run: npm run build
+        run: pnpm build
       - name: "Deploy to Vercel"
         run: |
           prodRun=""
@@ -36,7 +38,7 @@ jobs:
             prodRun="--prod"
           fi
 
-          npx vercel --token ${VERCEL_TOKEN} $prodRun
+          pnpm dlx vercel --token ${VERCEL_TOKEN} $prodRun
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}

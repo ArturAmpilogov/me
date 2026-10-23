@@ -8,7 +8,7 @@ import { languages, roles, technologies, education, certificates, experience } f
 export const metadata: Metadata = {
   title: "Experience",
   description:
-    "Professional experience spanning 18+ years across healthcare, marketplaces, enterprise platforms, and cloud-native systems.",
+    "Professional experience spanning 19+ years across healthcare, marketplaces, enterprise platforms, and cloud-native systems.",
 };
 
 export default function ExperiencePage() {

@@ -4,12 +4,13 @@ export const experience: IExperience[] = [
   {
     position: "Full-stack Developer (full time, contract)",
     organization: "Perci Health (UK, remote)",
-    duration: { start: "Apr 2025", end: "current" },
+    duration: { start: "Apr 2025", end: "Nov 2026" },
     description:
       "Rejoined Perci Health by request to co-lead the architecture and backend development of the next-generation healthcare platform, building a scalable Node.js/Firebase solution used across mobile and web clients within a team of 7 engineers.\n" +
       "Designed core backend foundations (API patterns, Firestore schema, security, versioning) and introduced a custom concurrency-protection layer that prevents race conditions and guarantees state integrity across all APIs.\n" +
       "Delivered end-to-end orchestration across scheduling, messaging, authentication, and care-pathway workflows, integrating systems such as Cal.com, GetStream, Awell, Medplum (FHIR), Descope, Customer.io, Slack, and Google Cloud Events.\n" +
-      "Implemented Fast Healthcare Interoperability Resources (FHIR) data flows and backend APIs used by the mobile app, supporting onboarding, scheduling, and care-delivery workflows.\n" +
+      "Implemented Fast Healthcare Interoperability Resources (FHIR) data flows on Medplum and backend APIs used by the mobile app, supporting onboarding, scheduling, and care-delivery workflows.\n" +
+      "Protected patient data by keeping PII out of logs and limiting staff access to patient data to what each role needs.\n" +
       "Collaborated closely with frontend engineers, QA, PM, a full-stack engineer, and the CTO to clarify backend interfaces, unblock development, and drive consistent adoption of platform patterns.\n" +
       "Played a key role in delivering a high-stakes demo for a major partner under extreme time pressure; the success directly supported new commercial agreements.",
     tags: [

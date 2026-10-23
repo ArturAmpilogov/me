@@ -32,11 +32,11 @@ export const metadata: Metadata = {
     ],
   },
   title: {
-    default: "Artur Ampilogov — Software Architect & Senior Full-Stack Engineer",
+    default: "Artur Ampilogov — Engineering Leader & Software Architect",
     template: "%s | Artur Ampilogov",
   },
   description:
-    "Staff-level Software Architect & Senior Full-Stack Engineer with 18+ years of experience in cloud architectures, engineering leadership, and full-stack development.",
+    "Hands-on engineering leader and Staff-level Software Architect with 19+ years of experience in cloud architectures, engineering leadership, and full-stack development; health-tech focus (FHIR, Medplum, clinical workflows).",
   openGraph: {
     type: "website",
     locale: "en_US",

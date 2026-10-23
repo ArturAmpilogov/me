@@ -155,7 +155,7 @@ export const experience: IExperience[] = [
       "Introduced a TypeScript monorepo (Turborepo), designed the structure, and built CI/CD pipelines in GitHub Actions, significantly improving developer velocity and simplifying cross-service development.\n" +
       "Implemented deep Stripe Billing integration (subscriptions, pricing models, webhooks), enabling A/B testing and flexible billing scenarios for customers.\n" +
       "Created public NPM packages (client and server) used across the product to unify GraphQL access patterns and reduce duplication.\n" +
-      "Delivered a high-throughput Go service sustaining 1M requests per hour using 2 GB RAM, eliminating Node.js/GraphQL performance bottlenecks and reducing cloud resource consumption.\n" +
+      "Delivered a high-throughput Go service that held 1M connections in load testing on 2 GB RAM, eliminating Node.js/GraphQL performance bottlenecks and reducing cloud resource consumption.\n" +
       "Selected and integrated ClickHouse for analytics workloads, and contributed to the integration of Redis and DynamoDB for supporting services.\n" +
       "Collaborated daily with the CEO and product leadership, shaping technical decisions and delivering at a pace that consistently exceeded expectations.",
     tags: [

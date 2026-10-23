@@ -4,7 +4,7 @@ export const experience: IExperience[] = [
   {
     position: "Full-stack Developer (full time, contract)",
     organization: "Perci Health (UK, remote)",
-    duration: { start: "Apr 2025", end: "current" },
+    duration: { start: "Apr 2025", end: "Nov 2026" },
     description:
       "Rejoined Perci Health by request to co-lead the architecture and backend development of the next-generation healthcare platform, building a scalable Node.js/Firebase solution used across mobile and web clients within a team of 7 engineers.\n" +
       "Designed core backend foundations (API patterns, Firestore schema, security, versioning) and introduced a custom concurrency-protection layer that prevents race conditions and guarantees state integrity across all APIs.\n" +

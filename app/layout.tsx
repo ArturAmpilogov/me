@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     ],
   },
   title: {
-    default: "Artur Ampilogov — Engineering Leader & Software Architect, Health-tech",
+    default: "Artur Ampilogov — Engineering Leader & Software Architect",
     template: "%s | Artur Ampilogov",
   },
   description:

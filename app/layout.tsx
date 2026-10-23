@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     template: "%s | Artur Ampilogov",
   },
   description:
-    "Hands-on engineering leader and Staff-level Software Architect with 18+ years of experience in cloud architectures, engineering leadership, and full-stack development; health-tech focus (FHIR, Medplum, clinical workflows).",
+    "Hands-on engineering leader and Staff-level Software Architect with 19+ years of experience in cloud architectures, engineering leadership, and full-stack development; health-tech focus (FHIR, Medplum, clinical workflows).",
   openGraph: {
     type: "website",
     locale: "en_US",

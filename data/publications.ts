@@ -308,4 +308,14 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20260210161445/https://www.linkedin.com/pulse/ai-video-generation-leveling-up-artur-ampilogov-ecopf/",
   },
+  {
+    type: "article",
+    date: "2026-10-24",
+    name: "Fewer docs, more demos: using AI to share knowledge",
+    link: "https://www.linkedin.com/pulse/fewer-docs-more-demos-using-ai-share-knowledge-artur-ampilogov-j3vqf/",
+    publisher: "LinkedIn",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20261024193131/https://www.linkedin.com/pulse/fewer-docs-more-demos-using-ai-share-knowledge-artur-ampilogov-j3vqf/",
+  },
 ];

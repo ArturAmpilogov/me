@@ -2,11 +2,11 @@ import { IPortfolio } from "../types";
 
 export const portfolio: IPortfolio[] = [
   {
-    name: "Ampilogov surname history",
+    name: "Perci Health",
     description:
-      "A documentary history of the Ampilogov surname in multiple languages, with a story, archival records, person cards, a family tree, and a migration map. AI agents searched and parsed online archives for two months to collect the data. It is the world's first research of the surname in such detail, with findings backed by archival documents and examples.",
-    link: "https://www.ampilogov.com/en",
-    images: ["/img/portfolio/ampilogov_story.png", "/img/portfolio/ampilogov_map.png"],
+      "A UK healthcare company and digital-health platform supporting people living with cancer, where I worked across two engagements (2021–2026). The work covered the CRM and referral system (React.JS + Node.JS), the Member and Clinical apps (Flutter + Node.JS), FHIR interoperability on Medplum, care pathways, clinical workflow automation for oncology nurses, patient-data privacy, and the platform on Google Cloud (GCP) and Firebase, along with TypeScript, Turborepo, Playwright, and many more.",
+    link: "https://www.percihealth.com/",
+    images: ["/img/portfolio/perci_member_app.webm", "/img/portfolio/perci_referrals.webm"],
     imageMaxWidth: 600,
   },
   {
@@ -15,13 +15,6 @@ export const portfolio: IPortfolio[] = [
       "Digital exhibitions. The project is built with React.JS, Next.JS, TailwindCSS, TypeScript, Firebase, Solidity and Ethereum blockchain. The project has not been released live yet.",
     link: "https://www.linkedin.com/in/artur-ampilogov/",
     images: ["/img/portfolio/aarrcc.webp", "/img/portfolio/aarrcc_wallet_selection.png"],
-    imageMaxWidth: 600,
-  },
-  {
-    name: "Perci Health Referrals",
-    description: "Referral system for the Healthcare startup, made with React.JS and Firebase.",
-    link: "https://www.percihealth.com/",
-    images: ["/img/portfolio/perci_referral.webp", "/img/portfolio/perci_referral.png"],
     imageMaxWidth: 600,
   },
   {
@@ -57,6 +50,14 @@ export const portfolio: IPortfolio[] = [
     description: "An open-source project with WPF/XAML themes for Microsoft.NET.",
     link: "https://github.com/ArturAmpilogov/WpfThemesHR",
     images: ["/img/portfolio/wpf_theme_1.png", "/img/portfolio/wpf_theme_2.png"],
+    imageMaxWidth: 600,
+  },
+  {
+    name: "Ampilogov surname history",
+    description:
+      "A documentary history of the Ampilogov surname in multiple languages, with a story, archival records, person cards, a family tree, and a migration map. AI agents searched and parsed online archives for two months to collect the data. It is the world's first research of the surname in such detail, with findings backed by archival documents and examples.",
+    link: "https://www.ampilogov.com/en",
+    images: ["/img/portfolio/ampilogov_story.png", "/img/portfolio/ampilogov_map.png"],
     imageMaxWidth: 600,
   },
   {

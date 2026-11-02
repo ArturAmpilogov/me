@@ -44,3 +44,16 @@
   object-fit: cover;
   object-position: top left;
 }
+
+.video-container {
+  width: 100%;
+}
+
+.video {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  border: 1px solid #e5e5e5;
+}

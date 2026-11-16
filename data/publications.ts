@@ -318,4 +318,12 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20261024193131/https://www.linkedin.com/pulse/fewer-docs-more-demos-using-ai-share-knowledge-artur-ampilogov-j3vqf/",
   },
+  {
+    type: "article",
+    date: "2026-11-16",
+    name: "Rethinking the Future of IT: The Wind of Change",
+    link: "https://www.linkedin.com/pulse/rethinking-future-wind-change-artur-ampilogov-vcrff/",
+    publisher: "LinkedIn",
+    language: "English",
+  },
 ];

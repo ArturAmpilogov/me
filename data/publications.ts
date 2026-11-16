@@ -325,5 +325,7 @@ export const publications: IPublication[] = [
     link: "https://www.linkedin.com/pulse/rethinking-future-wind-change-artur-ampilogov-vcrff/",
     publisher: "LinkedIn",
     language: "English",
+    archive:
+      "https://web.archive.org/web/20261116095336/https://www.linkedin.com/pulse/rethinking-future-wind-change-artur-ampilogov-vcrff/",
   },
 ];

@@ -328,4 +328,14 @@ export const publications: IPublication[] = [
     archive:
       "https://web.archive.org/web/20261116095336/https://www.linkedin.com/pulse/rethinking-future-wind-change-artur-ampilogov-vcrff/",
   },
+  {
+    type: "article",
+    date: "2026-11-18",
+    name: "Protect Your Company's Cloud Accounts Before the Surprise Bill",
+    link: "https://www.linkedin.com/pulse/protect-your-companys-cloud-accounts-before-surprise-bill-ampilogov-2wv1f/",
+    publisher: "LinkedIn",
+    language: "English",
+    archive:
+      "https://web.archive.org/web/20261118220252/https://www.linkedin.com/pulse/protect-your-companys-cloud-accounts-before-surprise-bill-ampilogov-2wv1f/",
+  },
 ];
